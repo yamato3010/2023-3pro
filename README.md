@@ -6,4 +6,4 @@
 
 ## 問題の追加方法
 
-[こちら](./addQuestion.md)を参照
+[こちら](./howToAddQuestion.md)を参照
