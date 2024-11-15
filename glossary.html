@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>用語解説</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+
+    <!--
+
+参考サイト（ドキュメント）
+https://getbootstrap.jp/docs/5.3/components/modal/
+改修予定　3/12
+現状imgではあるけど、とりあえずvideoでできるようにする 
+    モーダルのデザインをどうしようかな〜
+    モーダルの個数分長いコードを書くことになっているからどうにか短くできないだろうか
+    コピペの変更手順: 表示のトリガーとなる部分のdata-bs-targetにid属性を指定する、.modal fadeのidと.modal-title fs-5のidを（data-bs-targetに）一致させる
+    他の用語解説ページなどを参考にして...シンプルすぎるのを解消したい（CSS班に任せるかもしれないけど）
+
+-->
+
+</head>
+
+<body>
+    <div class="menubar">
+        <!-- このh1タグにタイトルが自動で入るので、ここはいじらない -->
+        <h1 class="menubar-text">用語一覧</h1>
+        <a class="btn btn-primary menubar-back-btn" type="button" 　onclick="location:href='selectLevel.html'" href="../index.html" style="margin-top: -72px;">＜＜戻る</a><!--なぜか表示されない？-->
+    </div>
+
+    <div class="accordion" id="prefectureList"></div>
+
+    <!-- 解説用モーダル -->
+    <div class="modal fade" id="explanationModal" tabindex="-1" aria-labelledby="explanationModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="explanationModalLabel">解説</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="modalBody">
+                    ここにモーダルの内容が入ります。
+                </div>
+
+                <iframe id="modalMedia" width="auto" height="485" src="" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">閉じる</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+        <!-- <script src="js/bootstrap.min.js"></script> -->
+        <script src="js/generateGlossary.js"></script>
+</body>
+
+</html>
