@@ -1,0 +1,195 @@
+.hand-syuwa {
+  width: 30px;
+  height: 30px;
+}
+
+#hints {
+  height: 200px;
+  /* 高さを適切な値に設定 */
+  overflow-y: auto;
+  /* 縦方向のスクロールを有効にする */
+  border: 1px solid #000;
+  /* 枠線を追加 */
+  padding: 10px;
+  /* パディングを追加 */
+}
+
+#game_body {
+  display: flex;
+  align-items: flex-start;
+  /* 要素の上端を揃える */
+  gap: 10px;
+  /* 要素間の隙間を設定 */
+  justify-content: center;
+}
+
+#time {
+  color: #121212;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 20px rgb(13, 13, 13, 0.25);
+  margin: .2rem;
+}
+
+.loading-icon {
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  box-shadow:
+    0 -30px 0 #eee,
+    /*  上  */
+    21px -21px 0 #ddd,
+    /* 右上 */
+    30px 0 0 #ccc,
+    /*  右  */
+    21px 21px 0 #bbb,
+    /* 右下 */
+    0 30px 0 #aaa,
+    /*  下  */
+    -21px 21px 0 #999,
+    /* 左下 */
+    -30px 0 0 #666,
+    /*  左  */
+    -21px -21px 0 #000;
+  /* 左上 */
+  animation: rotate 1s steps(8) 0s infinite;
+  /* position: absolute; */
+  /* 追加 */
+  /* bottom: 350px; */
+  /* 下からの距離を設定 */
+  /* margin-bottom: -143px; */
+  margin-top: 18px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/****** Base style. ******/
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#set_sign {
+  display: flex;
+  justify-content:
+    flex-start;
+}
+
+#hand_tab {
+  border: 2px solid #000000;
+  position: relative;
+  top: 10px;
+}
+
+.container {
+  flex: 1;
+  /* margin-left: 0; */
+  /* 必要に応じてフレックスの割合を調整 */
+}
+
+#up_button:hover {
+  transform: scale(1.1);
+  z-index: 10;
+  /* 拡大時にカードが他のカードの上に表示されるようにします */
+  overflow: visible;
+  /* 拡大時にカードの内容がはみ出さないようにします */
+}
+
+.loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loader .txt {
+  font-size: 45px;
+  font-weight: bold;
+  color: rgb(30, 50, 93);
+}
+
+#loaderTips {
+  position: absolute;
+  bottom: 0;
+}
+
+.layout_tate {
+  display: flex;
+  flex-flow: column;
+  margin-top: 80px;
+}
+.center-text{
+  font-size:15px;
+  text-align: center;
+}
+
+td img {
+  max-width: 70%;
+  max-height: 70px;
+  /* 画像の最大高さを設定 */
+  width: auto;
+  height: auto;
+  display: block;
+  /* これにより、余白がなくなります */
+  margin: 0 auto;
+  /* 画像を中央に配置 */
+  object-fit: contain;
+  /* 画像の縦横比を維持しながら、親要素にフィットさせます */
+}
+
+@media (max-width: 600px) {
+  td img {
+    max-width: 80px;
+    /* スマホ版での画像の最大幅を設定 */
+    max-height: 80px;
+    /* スマホ版での画像の最大高さを設定 */
+  }
+
+  #game_body {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+/* 指文字選択ボタンの上下にマージン */
+.answer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  position: sticky;
+  top: 67px;
+  z-index: 1050;
+}
+
+/* 指文字選択ボタンのデザイン */
+#buttons {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
+  padding: 6px;
+  background: #ffffff85;
+  backdrop-filter: blur(12px);
+}
+
+.handbtn {
+  background: #f0f0f0a3;
+  border-color: #d9d9d957;
+}
