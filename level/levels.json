@@ -1,0 +1,244 @@
+{
+  "levels": [
+    {
+      "id": 0,
+      "name": "分野：都道府県名",
+      "board": [
+        [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1],
+        [-1, 1, 0, 0, 0, 0, 0, 0, 0, -1],
+        [-1, 0, -1, 0, 0, 0, 0, 0, 0, -1],
+        [-1, 0, 0, 0, 0, 0, 0, 0, 0, -1],
+        [-1, 0, -1, 0, -1, 0, 0, 0, 0, -1],
+        [-1, 0, 0, 0, 0, 0, 0, 0, 0, -1],
+        [-1, 0, -1, 0, 0, 0, 0, -1, 0, -1],
+        [-1, 0, 0, 0, -1, 0, 0, 0, 0, -1],
+        [-1, 0, 0, 0, 0, 0, 0,-1, -1, -1],
+        [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
+      ],
+      "quiz": [
+        { "kagi": "あきらって誰？", "ans": "a ki ra", "loc": [1, 1], "direction": "vertical", "description": "あきらさんです．", "url": "", "ansStr":"あきら" }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "テストレベル：ダミーマスのテスト",
+      "board": [
+        [1, 0, 0, 0, 2, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 3, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, -1, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 4, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      ],
+      "quiz": [
+        { "kagi": "あきらって誰？", "ans": "a ki ra", "loc": [0, 0], "direction": "vertical", "description": "あきらさんです．", "url": "", "ansStr":"あきら" },
+        { "kagi": "あいうえ", "ans": "a i u e", "loc": [4, 0], "direction": "horizontal", "description": "あいうえです．", "url": "" ,"ansStr":"あいうえ" },
+        { "kagi": "かきくけ", "ans": "ka ki ku ke", "loc": [1, 3], "direction": "horizontal", "description": "かきくけです．", "url": "","ansStr":"かきくけ" },
+        { "kagi": "チョコレートうまい", "ans": "a ki", "loc": [1, 7], "direction": "vertical", "description": "チョコレートうまいです．", "url": "","ansStr":"あき" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "テストレベル：透過マスのテスト",
+      "board": [
+        [-2, -2, -2, -2, -2, -2, -2, -2, -2, -2],
+        [-2, 0, 0, 0, 0, 0, 0, 0, 0, -2],
+        [-2, 0, 0, 0, 0, 0, 0, 0, 0, -2],
+        [-2, 3, 0, 0, 0, 0, 0, 0, 0, -2],
+        [-2, 0, 0, 0, 0, 0, 0, 0, 0, -2],
+        [-2, 0, -1, 0, 0, 0, 0, 0, 0, -2],
+        [-2, 0, 0, 0, 0, 0, 0, 0, 0, -2],
+        [-2, 4, 0, 0, 0, 0, 0, 0, 0, -2],
+        [-2, 0, 0, 0, 0, 0, 0, 0, 0, -2],
+        [-2, -2, -2, -2, -2, -2, -2, -2, -2, -2]
+      ],
+      "quiz": [
+        { "kagi": "あきらって誰？", "ans": "a ki ra", "loc": [0, 0], "direction": "vertical", "description": "あきらさんです．", "url": "", "ansStr":"あきら" },
+        { "kagi": "あいうえ", "ans": "a i u e", "loc": [4, 0], "direction": "horizontal", "description": "あいうえです．", "url": "" ,"ansStr":"あいうえ" },
+        { "kagi": "かきくけ", "ans": "ka ki ku ke", "loc": [1, 3], "direction": "horizontal", "description": "かきくけです．", "url": "","ansStr":"かきくけ" },
+        { "kagi": "チョコレートうまい", "ans": "a ki", "loc": [1, 7], "direction": "vertical", "description": "チョコレートうまいです．", "url": "", "ansStr":"あき" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "分野：都道府県名",
+      "board": [
+        [-2, -2, -2, -2, -2, -2, -2, -2, -2, -2],
+        [-2, -2, -2, -2, -2, -2, -2, -2, -2, -2],
+        [-1, -1, 1, 0, 0, 2, 0, 0, -1, -2],
+        [-1, 9, -1, -1, -1, 0, -1, -1, -1, -2],
+        [10, 0, 0, -1, -1, 3, 0, 0, 4, -2],
+        [-1, 0, -1, 7, 0, 0, -1, -1, 0, -2],
+        [8, 0, 0, 0, -1, -1, 6, -1, 0, -2],
+        [-1, 0, -1, -1, -1, 5, 0, 0, 0, -2],
+        [-1, -1, 11, 0, 0, -1, 0, -1, -1, -2],
+        [-1, 12, 0, -1, -1, 13, 0, 0, 0, -2]
+      ],
+      "quiz": [
+        { "kagi": "日本一大きいよね", "ans": "ho ltu ka i do u", "loc": [2, 2], "direction": "horizontal", "description": "北海道　p.175甲側を前に向けた両手2指で上から「◇」の形を描く", "url": "https://www.youtube.com/embed/Jzxzq3J-Zxk", "ansStr":"北海道"},
+        { "kagi": "能登半島といえば", "ans": "i si ka wa", "loc": [5, 2], "direction": "vertical", "description": "石川県　実用手話p.72<石>+<川>", "url": "https://www.youtube.com/embed/OTje3ODDYNs", "ansStr":"石川県"},
+        { "kagi": "中華街が有名", "ans": "ka na ga wa", "loc": [5, 4], "direction": "horizontal", "description": "神奈川県　p.47両手の掌を1回打ち合わせ，左手を残して右手で<川>", "url": "https://www.youtube.com/embed/MVjXSrCw8bg","ansStr":"神奈川県" },
+        { "kagi": "熊野古道，白浜温泉，有田みかん", "ans": "wa ka ya ma", "loc": [8, 4], "direction": "vertical", "description": "和歌山県　p.207伸ばした右手の人差し指側を口元にあてる", "url": "https://www.youtube.com/embed/uv9EhLhfPX4","ansStr":"和歌山県" },
+        { "kagi": "喜多方ラーメン,会津若松城といえば", "ans": "fu ku si ma", "loc": [5, 7], "direction": "horizontal", "description": "福島県　p.162<幸せ>+<島>", "url": "https://www.youtube.com/embed/MASbeTCag3g","ansStr":"福島県"},
+        { "kagi": "阿波踊り，大鳴門橋架橋といえば", "ans": "to ku si ma", "loc": [6, 6], "direction": "vertical", "description": "徳島県　p.128<なるほど>+<島>", "url": "https://www.youtube.com/embed/Zj-C1_nlcFw","ansStr":"徳島県" },
+        { "kagi": "うどんといえば", "ans": "ka ga wa", "loc": [3, 5], "direction": "horizontal", "description": "香川県　p.41＜香る＞＋＜川＞の手話で香川となる", "url": "https://www.youtube.com/embed/2fq1B4uKyG0","ansStr":"香川県" },
+        { "kagi": "甲子園と言えば，神戸市が有名", "ans": "hi lyo u go", "loc": [0, 6], "direction": "horizontal", "description": "兵庫県　p.159両手拳を上下につけあわせ，右胸にあてる（兵隊，軍と同じ）", "url": "https://www.youtube.com/embed/2eD3MKAzhlY","ansStr":"兵庫県" },
+        { "kagi": "日本の首都", "ans": "to u ki lyo u", "loc": [1, 3], "direction": "vertical", "description": "東京都　p.125両手2指を直角に伸ばし，親指の指先をみき合わせて2回上げる", "url": "https://www.youtube.com/embed/HOvWo5Osakg","ansStr":"東京都"},
+
+        { "kagi": "四国の南部,四万十川,カツオが有名", "ans": "ko u ti", "loc": [0, 4], "direction": "horizontal", "description": "高知県　実用手話p.221<高い>+<知る>", "url": "https://www.youtube.com/embed/PjSkBjx9ALc","ansStr":"高知県"},
+
+        { "kagi": "出雲大社，石見銀山といえば", "ans": "si ma ne", "loc": [2, 8], "direction": "horizontal", "description": "島根県　左手で<島>を表現した後，左手を残して右手で<ね>", "url": "https://www.youtube.com/embed/pV94NRvdiek","ansStr":"島根県"},
+
+        { "kagi": "お笑い芸人のはなわの出身といえば，伊万里焼や有田焼きが有名", "ans": "sa ga", "loc": [1, 9], "direction": "horizontal", "description": "佐賀県　右手人差し指の指先をこめかみにあてたまま4指を開いて垂らす", "url": "https://www.youtube.com/embed/RDipIXAUC5o","ansStr":"佐賀県"},
+    { "kagi": "日本一でかい湖がある", "ans": "si ga", "loc": [2, 8], "direction": "vertical", "description": "滋賀県　丸めた左手を左肩前に置き，右手親指を腹の前で2回下げる", "url": "https://www.youtube.com/embed/TKz52PzDKKo","ansStr":"滋賀県"},
+
+        { "kagi": "ゆるキャラグランプリ2011優勝，放送中に暴走", "ans": "ku ma mo to", "loc": [5, 9], "direction": "horizontal", "description": "熊本県　伸ばした両手2指を向き合わせて腹に2回つける", "url": "https://www.youtube.com/embed/X4rXeaQfLis","ansStr":"熊本県"}
+      ]
+},
+
+    {
+      "id": 4,
+      "name": "分野：スポーツ",
+      "board": [
+        [-2, -2, -2, -2, -2, -2, -2, -2, -2, -2],
+        [-2, 1, 0, 0, 2, -1, -1, -1, -1, -2],
+        [-2, 0, -1, -1, 0, -1, 3, -1, 4, -2],
+        [-2, 0, -1, -1, 0, -1, 0, -1, 0, -2],
+        [-2, 0, -1, 5, 0, 0, 0, -1, 0, -2],
+        [-2, -1, -1, 0, -1, -1, -1, -1, 0, -2],
+        [-2, 6, 0, 0, 0, 0, 0, 0, 0, -2],
+        [-2, -1, -1, 0, -1, -1, -1, -1, -1, -2],
+        [-2, 7, 0, 0, 0, 0, 0, -1, -1, -2],
+        [-2, -2, -2, -2, -2, -2, -2, -2, -2, -2]
+      ],
+      "quiz": [
+        { "kagi": "ボールを前に投げてはいけない球技", "ans": "ra gu bi -", "loc": [1, 1], "direction": "vertical", "description": "最近盛り上がってますよね．", "url": "", "ansStr":"ラグビー" }
+        ,
+        { "kagi": "ネットのついたスティックでボールを操る", "ans": "ra ku ro su", "loc": [1, 1], "direction": "horizontal", "description": "最近盛り上がってますよね．", "url": "", "ansStr":"ラクロス" }
+        ,
+        { "kagi": "最近はゲームも含まれます", "ans": "su po - tu", "loc": [4, 1], "direction": "vertical", "description": "最近盛り上がってますよね．", "url": "", "ansStr":"スポーツ" }
+        ,
+        { "kagi": "雪の上を滑る競技", "ans": "su ki -", "loc": [6, 2], "direction": "vertical", "description": "最近盛り上がってますよね．", "url": "", "ansStr":"スキー" }
+        ,
+        { "kagi": "映画『ロッキー』って熱いよね", "ans": "bo ku si n gu", "loc": [8, 2], "direction": "vertical", "description": "最近盛り上がってますよね．", "url": "", "ansStr":"ボクシング" }
+        ,
+        { "kagi": "湘南にいい波が来るってよ", "ans": "sa - fu i n", "loc": [3, 4], "direction": "vertical", "description": "最近盛り上がってますよね．", "url": "", "ansStr":"サーフィン" }
+        ,
+        { "kagi": "イギリス発祥で蹴球とも言う", "ans": "sa tu ka -", "loc": [3, 4], "direction": "horizontal", "description": "最近盛り上がってますよね．", "url": "", "ansStr":"サッカー" }
+        ,
+        { "kagi": "水辺の人命救助", "ans": "ra i fu se - bi n gu", "loc": [1, 6], "direction": "horizontal", "description": "最近盛り上がってますよね．", "url": "", "ansStr":"ライフセービング" }
+        ,
+        { "kagi": "剣を駆使して行われるエレガントなスポーツ", "ans": "fu e n si n gu", "loc": [1, 8], "direction": "horizontal", "description": "最近盛り上がってますよね．", "url": "", "ansStr":"フェンシング" }
+      ]
+    },
+    {
+          "id": 5,
+          "name": "分野：苗字",
+          "board": [
+            [-1, -1, -1, -1, -1, -1, -1, 1, 0, 2],
+            [3, 0, 4, -1, -1, 5, 0, 0, -1, 0],
+            [-1, -1, 6, 0, 0, 0, -1, -1, -1, 0],
+            [7, 8, 0, -1, -1, 9, 0, 0, 10, -1],
+            [-1, 0, -1, -1, -1, -1, -1, -1, 11, 0],
+            [12, 0, 13, -1, -1, -1, 14, 15, 0, -1],
+            [0, -1, 16, 0, 17, -1, -1, 0, -1, 18],
+            [0, -1, 0, -1, 19, 0, 20, -1, 21, 0],
+            [22, 0, -1, -1, 0, -1, 0, -1, -1, 0],
+            [-1, -1, -1, -1, -1, 23, 0, 0, -1, 0]
+          ],
+          "quiz": [
+             { "kagi": "苗字ランキング：120位，スネ夫の声優", "ans": "se ki", "loc": [7, 0], "direction": "vertical", "description": "関　", "url": "","ansStr":"関" },
+            
+            { "kagi": "苗字ランキング：585位，川崎フロンターレ30番", "ans": "se ga wa", "loc": [7, 0], "direction": "horizontal", "description": "瀬川　", "url": "", "ansStr":"瀬川" },
+
+            { "kagi": "苗字ランキング：109位，実は「わたなべ」とも呼ぶ", "ans": "wa ta be", "loc": [9, 0], "direction": "vertical", "description": "渡部　", "url": "", "ansStr":"渡辺" },
+
+             { "kagi": "苗字ランキング：387位，アムロ・レイの声優で有名", "ans": "fu ru ya", "loc": [0, 1], "direction": "horizontal", "description": "古谷　p.167<古>+p.114<谷>", "url": "", "ansStr":"古谷" },
+            
+            { "kagi": "苗字ランキング：12位，俳優には孝之，野球選手には哲人", "ans": "ya ma da", "loc": [2, 1], "direction": "vertical", "description": "山田　p.194<山>+実用手話p.331<田>", "url": "", "ansStr":"山田" },
+
+            { "kagi": "苗字ランキング：1位，甘そう", "ans": "sa to u", "loc": [5, 1], "direction": "vertical", "description": "佐藤　p.7右手掌を口に向けて回す（<砂糖>，<甘い>の手話で表す）", "url": "","ansStr":"佐藤"},
+
+            { "kagi": "苗字ランキング：13位，宮本武蔵のライバル，○○○小次郎", "ans": "sa sa ki", "loc": [5, 1], "direction": "horizontal", "description": "佐々木　", "url": "", "ansStr":"佐々木" },
+
+            { "kagi": "苗字ランキング：13位，ダウンタウン浜田の相方", "ans": "ma tu mo to", "loc": [2, 2], "direction": "horizontal", "description": "松本　", "url": "", "ansStr":"松本" },
+
+            { "kagi": "苗字ランキング：11位，元総理大臣や，霊長類最強の人の苗字", "ans": "yo si da", "loc": [0, 3], "direction": "horizontal", "description": "吉田　p.197<吉，良い>+実用手話p.331<田>", "url": "", "ansStr":"吉田" },
+
+            { "kagi": "苗字ランキング：20位，静岡県の市，エスパルス", "ans": "si mi zu", "loc": [1, 3], "direction": "vertical", "description": "清水　", "url": "", "ansStr":"清水" },
+
+            { "kagi": "苗字ランキング：1135位，ハイキュー！！より，白鳥沢のエース，闇金でも有名", "ans": "u si zi ma", "loc": [5, 3], "direction": "horizontal", "description": "牛島　p.19<牛>+p.95<島>", "url": "", "ansStr":"牛島" },
+
+            { "kagi": "苗字ランキング：77位，ポケモン赤・緑などで作曲を担当", "ans": "ma su da", "loc": [8, 3], "direction": "vertical", "description": "増田　p.161<増える>+実用手話p.331<田>", "url": "", "ansStr":"増田" },
+
+            { "kagi": "苗字ランキング：693位，長野県の市にも存在", "ans": "su wa", "loc": [8, 4], "direction": "horizontal", "description": "諏訪　", "url": "", "ansStr":"諏訪" },
+
+            { "kagi": "苗字ランキング：2位，同じ名前の魚がいるよ", "ans": "su zu ki", "loc": [0, 5], "direction": "horizontal", "description": "鈴木　実用手話p.306<鈴>+p.55<木>", "url": "", "ansStr":"鈴木" },
+
+            { "kagi": "苗字ランキング：757位，東大王にも出演していた，北海道", "ans": "su na ga wa", "loc": [0, 5], "direction": "vertical", "description": "砂川　p.131<砂>+p.52<川>", "url": "", "ansStr":"砂川" },
+
+            { "kagi": "苗字ランキング：17位，SMAPのメンバー，ちょまてよ", "ans": "ki mu ra", "loc": [2, 5], "direction": "vertical", "description": "木村　p.55<木>+p.14<村>", "url": "", "ansStr":"木村" },
+
+            { "kagi": "苗字ランキング：516位，第100，101代内閣総理大臣", "ans": "ki si da", "loc": [6, 5], "direction": "horizontal", "description": "岸田　p.21<岸>+実用手話p.331<田>", "url": "" ,"ansStr":"岸田"},
+
+            { "kagi": "苗字ランキング：556位，城の崎にて，暗夜行路，網走まで，琵琶湖がある県と同じ読み方", "ans": "si ga", "loc": [7, 5], "direction": "vertical", "description": "志賀　", "url":"","ansStr":"志賀" },
+
+            { "kagi": "苗字ランキング：80位，とろサーモン久保田の相方", "ans": "mu ra ta", "loc": [2, 6], "direction": "horizontal", "description": "村田　p.14<村>+実用手話p.331<田>", "url": "","ansStr":"村田" },
+
+            { "kagi": "苗字ランキング：4位，アンガール○○,○○圭", "ans": "ta na ka", "loc": [4, 6], "direction": "vertical", "description": "田中　実用手話p.331<田>+p.117<中>", "url": "","ansStr":"田中" },
+
+            { "kagi": "苗字ランキング：6位，同じ読みでも，様々な漢字が当てはまる，○○謙，○○裕之", "ans": "wa ta na be", "loc": [9, 6], "direction": "vertical", "description": "渡辺　", "url": "","ansStr":"渡辺" },
+
+            { "kagi": "苗字ランキング：49位，東京の23区にも存在する", "ans": "na ka no", "loc": [4, 7], "direction": "horizontal", "description": "中野　", "url": "","ansStr":"中野" },
+
+            { "kagi": "苗字ランキング：417位，孫悟空，星野鉄郎の声優", "ans": "no za wa", "loc": [6, 7], "direction": "vertical", "description": "野沢　", "url": "","ansStr":"野沢" },
+
+            { "kagi": "苗字ランキング：667位，「ひまわりの約束」で有名", "ans": "ha ta", "loc": [8, 7], "direction": "horizontal", "description": "秦　", "url": "","ansStr":"秦"},
+
+            { "kagi": "苗字ランキング：58位，アキ子，まんじゅう", "ans": "wa da", "loc": [0, 8], "direction": "horizontal", "description": "和田　", "url": "","ansStr":"和田" },
+
+            { "kagi": "苗字ランキング：86位，こうの，とも読む", "ans": "ka wa no", "loc": [5, 9], "direction": "horizontal", "description": "河野　", "url": "","ansStr" :"河野"}
+          ]
+    },
+    {
+      "id": 6,
+      "name": "分野：コンピュータ",
+      "board": [
+        [1, 0, 2, -1, 4, -1, -1, -1, -1, 6],
+        [0, -1, 3, 0, 0, 0, -1, -1, -1, 0],
+        [0, -1, 0, -1, 0, -1, 5, 0, 0, 0],
+        [0, -1, 0, -1, -1, -1, 0, -1, -1, -1],
+        [0, -1, 7, 0, 8, -1, 0, -1, -1, 14],
+        [0, -1, -1, -1, 9, 0, 0, 0, -1, 0],
+        [10, 0, 11, 0, -1, -1, 0, -1, -1, 0],
+        [-1, -1, 0, -1, -1, -1, 12, 0, 13, 0],
+        [-1, -1, 15, 0, 0, 0, -1, -1, 0, -1],
+        [16, 0, 0, -1, -1, -1, -1, -1, 0, -1]
+      ],
+      "quiz": [
+      { "kagi": "マイクロソフト", "ans": "ma i ku ro so fu to", "loc": [0, 0], "direction": "vertical", "description": "あきらさんです．", "url": "","ansStr" :"マイクロソフト"},
+      { "kagi": "マウス", "ans": "ma u su", "loc": [0, 0], "direction": "horizontal", "description": "あきらさんです．", "url": "","ansStr" :"マウス"},
+      { "kagi": "スクロール", "ans": "su ku ro - ru", "loc": [2, 0], "direction": "vertical", "description": "あきらさんです．", "url": "","ansStr" :"スクロール"},
+      { "kagi": "クリック", "ans": "ku ri ltu ku", "loc": [2, 1], "direction": "horizontal", "description": "あきらさんです．", "url": "","ansStr" :"クリック"},
+      { "kagi": "マック", "ans": "ma ltu ku", "loc": [4, 0], "direction": "vertical", "description": "あきらさんです．", "url": "","ansStr" :"クリック"},
+      { "kagi": "送信", "ans": "so u si n", "loc": [6, 2], "direction": "horizontal", "description": "あきらさんです．", "url": "","ansStr" :"送信"},
+      { "kagi": "ソフトウェア", "ans": "so fu to u e a", "loc": [6, 2], "direction": "vertical", "description": "あきらさんです．", "url": "","ansStr" :"ソフトウェア"},
+      { "kagi": "マシン", "ans": "ma si n", "loc": [9, 0], "direction": "vertical", "description": "あきらさんです．", "url": "","ansStr" :"マシン"},
+      { "kagi": "ルータ", "ans": "ru - ta", "loc": [2, 4], "direction": "horizontal", "description": "あきらさんです．", "url": "","ansStr" :"ルータ"},
+      { "kagi": "タブ", "ans": "ta bu", "loc": [4, 4], "direction": "vertical", "description": "あきらさんです．", "url": "","ansStr" :"タブ"},
+      { "kagi": "ブラウザ", "ans": "bu ra u za", "loc": [4, 5], "direction": "horizontal", "description": "あきらさんです．", "url": "","ansStr" :"ブラウザ"},
+      { "kagi": "登録", "ans": "to u ro ku", "loc": [0, 6], "direction": "horizontal", "description": "あきらさんです．", "url": "","ansStr" :"登録"},
+      { "kagi": "ログイン", "ans": "ro gu i n", "loc": [2, 6], "direction": "vertical", "description": "あきらさんです．", "url": "","ansStr" :"ログイン"},
+      { "kagi": "アナログ", "ans": "a na ro gu", "loc": [6, 7], "direction": "horizontal", "description": "あきらさんです．", "url": "","ansStr" :"アナログ"},
+      { "kagi": "ロード", "ans": "ro - do", "loc": [8, 7], "direction": "vertical", "description": "あきらさんです．", "url": "","ansStr" :"ロード"},
+      { "kagi": "エムペグ", "ans": "e mu pe gu", "loc": [9, 4], "direction": "vertical", "description": "あきらさんです．", "url": "","ansStr" :"ログイン"},
+      { "kagi": "EC（いーしー）", "ans": "e - si -", "loc": [2, 8], "direction": "horizontal", "description": "あきらさんです．", "url": "","ansStr" :"EC（いーしー）"},
+      { "kagi": "LINE（らいん）", "ans": "ra i n", "loc": [0, 9], "direction": "horizontal", "description": "あきらさんです．", "url": "","ansStr" :"LINE（らいん）"}
+      ]
+    }
+  ]
+}
