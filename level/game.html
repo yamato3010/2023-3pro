@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>なうろーでぃんぐ</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link href="../css/style.css" rel="stylesheet">
+	<link href="../css/level/game-main.css" rel="stylesheet">
+	<link href="../css/level/10x10.css" rel="stylesheet">
+	<link href="../css/fullscreen.css" rel="stylesheet">
+	<style>
+		#vertical,
+		#horizontal {
+			list-style-type: none;
+		}
+	</style>
+</head>
+
+<body data-check-groups=''>
+
+	<div class="full-screen" id="clearText">
+		<p class="txt">クリア</p>
+	</div>
+
+	<div class="full-screen" id="particles-js"></div>
+
+
+	<div class="loader">
+		<p class="txt">ロード中...</p>
+		<i class="loading-icon"></i>
+		<p id="loaderTips"></p>
+	</div>
+
+	<div class="full-screen-no-support" id="clearText">
+		<img id="caution" src="../img/caution.png" height="20%" width="auto" alt="caution" align="top">
+		<p class="txt">お使いの端末のディスプレイサイズはサポートされていません．</p>
+		<p class="txt">ウィンドウサイズを大きくするか，PC等でアクセスしてください．</p>
+		<a class="btn btn-primary" type="button" onclick="location:href='../index.html'">タイトル画面へ</a>
+	</div>
+
+	<h1 class="levelTitle　position-absolute top-0 start-0"></h1>
+	<div class="wrapper row">
+
+		<!-- 正解した時に表示されるモーダル -->
+		<div class="modal fade" id="correctModal" tabindex="-1" aria-labelledby="correctModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-xl">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="correctModalLabel">正解！</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body" id="modalBody">
+						ここにモーダルの内容が入ります。
+					</div>
+
+					<iframe id="modalMedia" width="auto" height="485" src="" title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-bs-dismiss="modal">閉じる</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+
+			<!-- 全問正解した時に表示されるモーダル -->
+			<div class="modal fade" id="clearModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+				data-backdrop="false">
+				<div class="modal-dialog modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">レベルクリア！</h5>
+							<!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+						</div>
+						<div class="modal-body" id="clearModalBody" onload="stopTimer()">
+							全問正解おめでとう🎉
+						</div>
+						<div class="modal-footer">
+							<a class="btn btn-primary" href="../selectLevel.html" role="button">レベル選択画面へ</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- ヒントを押した時に表示されるモーダル -->
+			<div class="modal fade" id="hintModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+				data-backdrop="false">
+				<div class="modal-dialog modal-dialog-centered modal-xl">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">指文字表</h5>
+							<!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+						</div>
+						<div class="modal-body" id="clearModalBody" onload="stopTimer()">
+							<!-- 指文字表 -->
+							<table class="table table-bordered" id="hand_tab">
+								<tbody>
+
+									<tr>
+										<td align="center" class="table-warning"><strong>わ</strong><br><img
+												src="../img/hand_syuwa/new/wa.png">
+										</td>
+										<td align="center" class="table-warning"><strong>ら</strong><br><img
+												src="../img/hand_syuwa/new/ra.png">
+										</td>
+										<td align="center" class="table-warning"><strong>や</strong><br><img
+												src="../img/hand_syuwa/new/ya.png">
+										</td>
+										<td align="center" class="table-warning"><strong>ま</strong><br><img
+												src="../img/hand_syuwa/new/ma.png">
+										</td>
+										<td align="center" class="table-warning"><strong>は</strong><br><img
+												src="../img/hand_syuwa/new/ha.png">
+										</td>
+										<td align="center" class="table-warning"><strong>な</strong><br><img
+												src="../img/hand_syuwa/new/na.png">
+										</td>
+										<td align="center" class="table-warning"><strong>た</strong><br><img
+												src="../img/hand_syuwa/new/ta.png">
+										</td>
+										<td align="center" class="table-warning"><strong>さ</strong><br><img
+												src="../img/hand_syuwa/new/sa.png">
+										</td>
+										<td align="center" class="table-warning"><strong>か</strong><br><img
+												src="../img/hand_syuwa/new/ka.png">
+										</td>
+										<td align="center" class="table-warning"><strong>あ</strong><br><img
+												src="../img/hand_syuwa/new/a.png">
+										</td>
+									</tr>
+
+									<tr>
+										<td align="center" class="table-warning"><strong>長音「ー」</strong><br><img
+												src="../img/hand_syuwa/new/-.gif">
+										</td>
+										<td align="center" class="table-warning"><strong>り</strong><br><img
+												src="../img/hand_syuwa/new/ri.png">
+										</td>
+										<td></td>
+										<td align="center" class="table-warning"><strong>み</strong><br><img
+												src="../img/hand_syuwa/new/mi.png">
+										</td>
+										<td align="center" class="table-warning"><strong>ひ</strong><br><img
+												src="../img/hand_syuwa/new/hi.png">
+										</td>
+										<td align="center" class="table-warning"><strong>に</strong><br><img
+												src="../img/hand_syuwa/new/ni.png">
+										</td>
+										<td align="center" class="table-warning"><strong>ち</strong><br><img
+												src="../img/hand_syuwa/new/ti.png">
+										</td>
+										<td align="center" class="table-warning"><strong>し</strong><br><img
+												src="../img/hand_syuwa/new/si.png">
+										</td>
+										<td align="center" class="table-warning"><strong>き</strong><br><img
+												src="../img/hand_syuwa/new/ki.png">
+										</td>
+										<td align="center" class="table-warning"><strong>い</strong><br><img
+												src="../img/hand_syuwa/new/i.png">
+										</td>
+									</tr>
+
+									<tr>
+										<td align="center" class="table-warning"><strong>を</strong><br><img
+												src="../img/hand_syuwa/new/wo.png">
+										</td>
+										<td align="center" class="table-warning"><strong>る</strong><br><img
+												src="../img/hand_syuwa/new/ru.png">
+										</td>
+										<td align="center" class="table-warning"><strong>ゆ</strong><br><img
+												src="../img/hand_syuwa/new/yu.png">
+										</td>
+										<td align="center" class="table-warning"><strong>む</strong><br><img
+												src="../img/hand_syuwa/new/mu.png">
+										</td>
+										<td align="center" class="table-warning"><strong>ふ</strong><br><img
+												src="../img/hand_syuwa/new/fu.png">
+										</td>
+										<td align="center" class="table-warning"><strong>ぬ</strong><br><img
+												src="../img/hand_syuwa/new/nu.png">
+										</td>
+										<td align="center" class="table-warning"><strong>つ</strong><br><img
+												src="../img/hand_syuwa/new/tu.png">
+										</td>
+										<td align="center" class="table-warning"><strong>す</strong><br><img
+												src="../img/hand_syuwa/new/su.png">
+										</td>
+										<td align="center" class="table-warning"><strong>く</strong><br><img
+												src="../img/hand_syuwa/new/ku.png">
+										</td>
+										<td align="center" class="table-warning"><strong>う</strong><br><img
+												src="../img/hand_syuwa/new/u.png">
+										</td>
+									</tr>
+
+									<tr>
+										<td></td>
+										<td align="center" class="table-warning"><strong>れ</strong><br><img
+												src="../img/hand_syuwa/new/re.png">
+										</td>
+										<td></td>
+										<td align="center" class="table-warning"><strong>め</strong><br><img
+												src="../img/hand_syuwa/new/me.png">
+										</td>
+										<td align="center" class="table-warning"><strong>へ</strong><br><img
+												src="../img/hand_syuwa/new/he.png">
+										</td>
+										<td align="center" class="table-warning"><strong>ね</strong><br><img
+												src="../img/hand_syuwa/new/ne.png">
+										</td>
+										<td align="center" class="table-warning"><strong>て</strong><br><img
+												src="../img/hand_syuwa/new/te.png">
+										</td>
+										<td align="center" class="table-warning"><strong>せ</strong><br><img
+												src="../img/hand_syuwa/new/se.png">
+										</td>
+										<td align="center" class="table-warning"><strong>け</strong><br><img
+												src="../img/hand_syuwa/new/ke.png">
+										</td>
+										<td align="center" class="table-warning"><strong>え</strong><br><img
+												src="../img/hand_syuwa/new/e.png">
+										</td>
+									</tr>
+
+									<tr>
+										<td align="center" class="table-warning"><strong>ん</strong><br><img
+												src="../img/hand_syuwa/new/n.png">
+										</td>
+										<td align="center" class="table-warning"><strong>ろ</strong><br><img
+												src="../img/hand_syuwa/new/ro.png">
+										</td>
+										<td align="center" class="table-warning"><strong>よ</strong><br><img
+												src="../img/hand_syuwa/new/yo.png">
+										</td>
+										<td align="center" class="table-warning"><strong>も</strong><br><img
+												src="../img/hand_syuwa/new/mo.png">
+										</td>
+										<td align="center" class="table-warning"><strong>ほ</strong><br><img
+												src="../img/hand_syuwa/new/ho.png">
+										</td>
+										<td align="center" class="table-warning"><strong>の</strong><br><img
+												src="../img/hand_syuwa/new/no.png">
+										</td>
+										<td align="center" class="table-warning"><strong>と</strong><br><img
+												src="../img/hand_syuwa/new/to.png">
+										</td>
+										<td align="center" class="table-warning"><strong>そ</strong><br><img
+												src="../img/hand_syuwa/new/so.png">
+										</td>
+										<td align="center" class="table-warning"><strong>こ</strong><br><img
+												src="../img/hand_syuwa/new/ko.png">
+										</td>
+										<td align="center" class="table-warning"><strong>お</strong><br><img
+												src="../img/hand_syuwa/new/o.png">
+										</td>
+									</tr>
+									<tr align=”center”>
+										<td colspan="3" class="table-warning"><strong>横移動すると濁音　例「が」</strong><br><img
+												src="../img/hand_syuwa/new/ga.gif">
+										</td>
+										<td colspan="3" class="table-warning"><strong>上移動すると半濁音　例「ぱ」</strong><br><img
+												src="../img/hand_syuwa/new/pa.gif">
+										<td colspan="4" class="table-warning"><strong>遠ざかると拗音，促音　例「ゃ」</strong><br><img
+												src="../img/hand_syuwa/new/lya.gif">
+										</td>
+									</tr>
+									<tr align=”center”>
+
+									</tr>
+								</tbody>
+							</table>
+							<!-- 指文字表ここまで -->
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-primary" data-bs-dismiss="modal">閉じる</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 画面上部のメニューバー -->
+		<div class="menubar">
+			<h1 class="levelTitle menubar-text">なうろーでぃんぐ</h1>
+			<a class="btn btn-primary menubar-back-btn" type="button" 　onclick="location:href='selectLevel.html'"
+				href="../selectLevel.html" style="margin-top: -72px;">＜＜レベル選択画面に戻る</a>
+		</div>
+		<!-- <div class="menubar">
+			<h1 class="levelTitle menubar-text">なうろーでぃんぐ</h1>
+			<a class="btn btn-primary menubar-back-btn" type="button" onclick="location:href='index.html'">＜＜戻る</a>
+		</div> -->
+		<!-- 文字選択ボタンを実装 -->
+		<div class="answer">
+			<div id="buttons" class="container mb-2">
+				<div class="d-flex flex-row gap-1 mb-1" style="flex-wrap: wrap;">
+					<!-- ここにボタンが自動生成される -->
+				</div>
+			</div>
+		</div>
+		<!-- クロスワードのマス -->
+		<div id="game_body">
+			<div id="board" class="grid" style="margin-left: 10px;">
+				<!-- ここにクロスワードのますが自動生成される -->
+			</div>
+			<div class="layout_tate">
+				<!-- <input class="btn btn-primary" id="up_button" type="button" value="ヒント：指文字表をon/offにする"
+					onclick="change_button()"> -->
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#hintModal">
+					ヒント
+				</button>
+				<br>
+				<h1>経過時間:</h1>
+				<div id="container">
+					<div id="time">
+						<p>00:00:00</p>
+					</div>
+				</div>
+				<p class="center-text"><br>上の指文字を使って
+					<br>クロスワードを完成させよう！
+					<br>下にあるカギが重要だぞ！
+					<br>
+					<!-- 遊び方の説明 -->
+					【操作方法】<br>
+					上部のボタンを押して指文字を選択<br>
+					下部のマス目を押してその指文字をを入力<br>
+					マス目に入れた指文字はクリックで削除
+				</p>
+			</div>
+		</div>
+		<!-- ヒントエリア -->
+		<div class="hints mt-2">
+			<nav>
+				<div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+					<button class="nav-link active" id="nav-yoko-tab" data-bs-toggle="tab" data-bs-target="#nav-yoko"
+						type="button" role="tab" aria-controls="nav-yoko" aria-selected="true">ヨコのカギ</button>
+					<button class="nav-link" id="nav-tate-tab" data-bs-toggle="tab" data-bs-target="#nav-tate" type="button"
+						role="tab" aria-controls="nav-tate" aria-selected="false">タテのカギ</button>
+				</div>
+			</nav>
+			<div class="tab-content" id="nav-tabContent">
+				<div class="tab-pane fade show active" id="nav-yoko" role="tabpanel" aria-labelledby="nav-yoko-tab"
+					tabindex="0">
+					<ul id="horizontal">
+					</ul>
+				</div>
+				<div class="tab-pane fade" id="nav-tate" role="tabpanel" aria-labelledby="nav-tate-tab" tabindex="0">
+					<ul id="vertical">
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- スクリプトのインポート -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script src="../js/generateLevel.js"></script>
+	<script src="../js/main.js"></script>
+	<script src="../js/showTips.js"></script>
+	<!-- <script>
+		function change_button() {
+			var element = document.getElementById('hand_tab');
+			if (element.style.display === 'none' || element.style.display === '') {
+				element.style.display = 'flex';
+			} else {
+				element.style.display = 'none';
+			}
+		}
+	</script> -->
+	<script>
+		$(function () {
+			function end_loader() {
+				$('.loader').fadeOut(800);
+			}
+
+			$(window).on('load', function () {
+				setTimeout(function () {
+					end_loader();
+				}, 4000);
+			});
+
+			// 画像のロードを確認する
+			var images = $('img');
+			var imagesLoaded = 0;
+
+			images.each(function () {
+				if (this.complete) {
+					imagesLoaded++;
+				} else {
+					$(this).on('load', function () {
+						imagesLoaded++;
+						if (imagesLoaded == images.length) {
+							$(window).trigger('allImagesLoaded');
+						}
+					});
+				}
+			});
+
+			if (imagesLoaded == images.length) {
+				$(window).trigger('allImagesLoaded');
+			}
+
+			$(window).on('allImagesLoaded', function () {
+				setTimeout(function () {
+					end_loader();
+				}, 4000);
+			});
+		});
+	</script>
+
+
+	<script>
+		// タイマー処理
+		let timer;
+		let isPaused = false;
+		let elapsedTime = 0;
+
+		function startTimer() {
+			if (isPaused) return;
+			timer = setInterval(function () {
+				elapsedTime++;
+				let hours = Math.floor(elapsedTime / 3600);
+				let minutes = Math.floor((elapsedTime % 3600) / 60);
+				let seconds = elapsedTime % 60;
+				document.getElementById('time').innerText =
+					`${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+			}, 1000);
+		}
+		// タイマーを停止する関数
+		function stopTimer() {
+			clearInterval(timer);
+			isPaused = true;
+		}
+		// タイマーを再開する関数
+		function resumeTimer() {
+			if (!isPaused) return;
+			isPaused = false;
+			startTimer();
+		}
+
+		$(window).on('allImagesLoaded', function () {
+			setTimeout(function () {
+				// setTimeout(startTimer, 10);
+				startTimer();
+			}, 4000);
+		});
+	</script>
+	<script src="../js/egg.js"></script>
+</body>
+
+</html>
