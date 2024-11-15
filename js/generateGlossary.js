@@ -1,6 +1,6 @@
 const baseUrl = "https://www.youtube.com/embed/";
 
-fetch("level/levels (copy).json")
+fetch("level/levels.json")
     .then(response => response.json())
     .then(data => {
         for (let i = 0; i < data.levels.length; i++) {
