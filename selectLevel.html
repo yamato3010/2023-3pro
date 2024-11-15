@@ -1,0 +1,152 @@
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>レベルセレクト</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/fullscreen.css" rel="stylesheet">
+
+  <style>
+
+  </style>
+</head>
+
+<body>
+
+  <div class="menubar">
+    <h1 class="menubar-text">レベル選択</h1>
+    <a class="btn btn-primary menubar-back-btn" type="button"
+      onclick="location:href='index.html'">＜＜戻る</a><!-- なぜかindex.htmlのリンクが見つからない-->
+  </div>
+
+  <div class="full-screen-no-support" id="clearText">
+    <img id="caution" src="./img/caution.png" height="20%" width="auto" alt="caution" align="top">
+    <p class="txt">お使いの端末のディスプレイサイズはサポートされていません．</p>
+    <p class="txt">ウィンドウサイズを大きくするか，PC等でアクセスしてください．</p>
+    <a class="btn btn-primary" type="button" onclick="location:href='index.html'">タイトル画面へ</a>
+  </div>
+
+  <h1>レベル<span>1</span></h1>
+  <hr>
+  <div class="effect">
+    <div class="d-flex flex-row mb-3">
+      <div class="card" data-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="ctm-tooltip"
+        title="都道府県名について問題が出題されます" style="width: 15rem;">
+        <a href="level/game.html?id=3" class="btn btn-outline-pri　btn btn-outline-primary" 　type="button">
+          <img src="./img/level_icon/nihonchizu_area2.png" alt="カードの画像" class="card-img-top img-responsive">
+          <div class="card-body">
+            <h5 class="card-text">都道府県名</h5>
+            <!-- <p class="card-text">スポーツに関連するワードを中心に問題が出題されます</p> -->
+            <div class="d-grid gap-2">
+
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="card" data-toggle="tooltip" data-bs-placement="bottom" data-placement="top"
+        title="苗字について問題が出題されます（難しい）" style="width: 15rem;">
+        <a href="level/game.html?id=5" class="btn btn-outline-pri　btn btn-outline-primary" type="button">
+          <img src="./img/level_icon/travel_happy_family2_set.png" alt="カードの画像" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-text">苗字</h5>
+            <!-- <p class="card-text">スポーツに関連するワードを中心に問題が出題されます</p> -->
+            <div class="d-grid gap-2">
+
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="card" data-toggle="tooltip" data-bs-placement="bottom" data-placement="top"
+        title="スポーツに関する分野の問題が出題されます" style="width: 15rem;">
+        <a href="level/game.html?id=4" class="btn btn-outline-pri　btn btn-outline-primary" 　type="button">
+          <img src="./img/level_icon/sports_soccer_man_asia.png" alt="カードの画像" class="card-img-top img-responsive">
+          <div class="card-body">
+            <h5 class="card-text">スポーツ</h5>
+            <!-- <p class="card-text">スポーツに関連するワードを中心に問題が出題されます</p> -->
+            <div class="d-grid gap-2">
+
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <!--この中にレベル１の問題を追加する-->
+    </div>
+  </div>
+
+  <h1>レベル<span>2</span></h1>
+  <hr>
+  <div class="effect" style="margin-bottom: 100px;">
+    <div class="d-flex flex-row mb-3">
+      <div class="card" data-toggle="tooltip" data-bs-placement="bottom" data-placement="top" title="近日公開！"
+        style="width: 15rem;">
+        <a href="level/game.html?id=0" class="btn btn-outline-pri　btn btn-outline-secondary " 　type="button">
+          <img src="./img/level_icon/sports_soccer_man_asia.png" alt="カードの画像" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">coming soon...</h5>
+            <!-- <p class="card-text">スポーツに関連するワードを中心に問題が出題されます</p> -->
+            <div class="d-grid gap-2">
+
+            </div>
+          </div>
+        </a>
+      </div>
+
+
+
+      <div class="card" data-toggle="tooltip" data-bs-placement="bottom" data-placement="top" title="近日公開！"
+        style="width: 15rem;">
+        <a href="index.html" class="btn btn-outline-pri　btn btn-outline-secondary disabled" 　type="button">
+          <img src="./img/level_icon/sports_soccer_man_asia.png" alt="カードの画像" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">coming soon...</h5>
+            <!-- <p class="card-text">スポーツに関連するワードを中心に問題が出題されます</p> -->
+            <div class="d-grid gap-2">
+
+            </div>
+          </div>
+        </a>
+      </div>
+
+
+
+      <div class="card" data-toggle="tooltip" data-bs-placement="bottom" data-placement="top" title="近日公開！"
+        style="width: 15rem;">
+        <a href="index.html" class="btn btn-outline-pri　btn btn-outline-secondary disabled" 　type="button">
+          <img src="./img/level_icon/sports_soccer_man_asia.png" alt="カードの画像" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">coming soon...</h5>
+            <!-- <p class="card-text">スポーツに関連するワードを中心に問題が出題されます</p> -->
+            <div class="d-grid gap-2">
+
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+  </script>
+  <script src="./js/egg.js"></script>
+</body>
+
+</html>

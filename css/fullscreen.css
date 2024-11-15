@@ -1,0 +1,92 @@
+.full-screen {
+  position: fixed;
+  /* または absolute */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  /* 背景色と透明度の例 */
+  color: black;
+  /* テキスト色の例 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  /* 他の要素の上に表示するための例 */
+  opacity: 0;
+  /* 初期状態では透明にする */
+  pointer-events: none;
+  font-size: 5rem;
+  /* 文字の大きさを調整 */
+  font-weight: bold;
+  text-align: center;
+}
+
+.full-screen-no-support {
+  display: none;
+}
+@media (max-width: 800px) {
+.full-screen-no-support {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffffc7;
+  backdrop-filter: blur(12px);
+  z-index: 10000;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: background-color 0.3s ease;
+}
+}
+
+.full-screen .txt {
+  font-size: 45px;
+  font-weight: bold;
+  color: rgb(30, 50, 93);
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(-5px);
+  }
+  20% {
+    transform: translateX(5px);
+  }
+  30% {
+    transform: translateX(-5px);
+  }
+  40% {
+    transform: translateX(5px);
+  }
+  50% {
+    transform: translateX(-4px);
+  }
+  60% {
+    transform: translateX(4px);
+  }
+  70% {
+    transform: translateX(-3px);
+  }
+  80% {
+    transform: translateX(3px);
+  }
+  90% {
+    transform: translateX(-2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+#caution {
+  transition: transform 0.3s ease;
+}
