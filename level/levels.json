@@ -16,7 +16,7 @@
         [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
       ],
       "quiz": [
-        { "kagi": "あきらって誰？", "ans": "a ki ra", "loc": [1, 1], "direction": "vertical", "description": "あきらさんです．", "url": "", "ansStr":"あきら" }
+        { "kagi": "あきらって誰？", "ans": "a ki ru", "loc": [1, 1], "direction": "vertical", "description": "あきらさんです．", "url": "", "ansStr":"あきら" }
       ]
     },
     {
