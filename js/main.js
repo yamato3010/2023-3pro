@@ -89,6 +89,7 @@ function romajiToHiragana(romaji) {
       'pa': 'ぱ', 'pi': 'ぴ', 'pu': 'ぷ', 'pe': 'ぺ', 'po': 'ぽ',
       'ltu': 'っ', 'xtu': 'っ', 'la': 'ぁ', 'li': 'ぃ', 'lu': 'ぅ',
       'le': 'ぇ', 'lo': 'ぉ',
+      '-': 'ー',
   };
 
   return romajiToHiraganaMap[romaji] || romaji;
