@@ -10,7 +10,10 @@ let isModalOpen = false;
 // 正解したgroupが一時的に格納される配列
 let correctArr = [];
 
-// groupからそのgroupの正解モーダルを表示する関数
+/**
+ * 正解したgroupの正解モーダルを表示する関数
+ * @param {Object} group - 正解したグループ
+ */
 function showCorrectModal(group) {
   for (var i = 0; i < window.descriptionArray.length; i++) {
     let arrayString = group.charData.join(" ");
@@ -39,7 +42,10 @@ function showCorrectModal(group) {
   correctArr.splice(0, 1);
 }
 
-// 正解したgroupをcorrectArrに追加するグループ
+/**
+ * 正解したグループをcorrectArrに追加する関数
+ * @param {Object} group - チェックするグループ
+ */
 function checkCorrectness(group) {
   var allCorrect = true;
   // 正解しているかチェック
@@ -186,7 +192,9 @@ $(document).ready(function () {
   });
 });
 
-// 全問正解した際のモーダルの表示
+/**
+ * 全問正解した際のモーダルの表示
+ */
 document.getElementById('correctModal').addEventListener('hidden.bs.modal', function () {
   // 全問正解の判定
   let allAlertsShown = checkGroups.every(item => item.alertShown === true);
@@ -229,7 +237,9 @@ document.getElementById('correctModal').addEventListener('hidden.bs.modal', func
   }
 }, {});
 
-// 全問正解した際の紙吹雪のパーティクル
+/**
+ * 全問正解した際の紙吹雪のパーティクル
+ */
 particlesJS("particles-js", {
   "particles": {
     "number": {
@@ -304,13 +314,17 @@ particlesJS("particles-js", {
   "retina_detect": true
 });
 
-// モーダルが開かれた時にフラグを立てる
+/**
+ * モーダルが開かれた時にフラグを立てる
+ */
 $('#correctModal').on('shown.bs.modal', function () {
   isModalOpen = true;
   console.log("モーダルが開いている");
 });
 
-// モーダルが閉じられた時にフラグを下げる
+/**
+ * モーダルが閉じられた時にフラグを下げる
+ */
 $('#correctModal').on('hidden.bs.modal', function () {
   isModalOpen = false;
   console.log("モーダルが閉じている");
