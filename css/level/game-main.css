@@ -139,7 +139,7 @@ body {
   margin-top: 80px;
 }
 .center-text{
-  font-size:15px;
+  font-size:19px;
   text-align: center;
 }
 
@@ -192,4 +192,16 @@ td img {
 .handbtn {
   background: #f0f0f0a3;
   border-color: #d9d9d957;
+}
+
+.hint-text {
+  font-size: 25px;
+}
+
+#nav-yoko-tab {
+  font-size: 25px;
+}
+
+#nav-tate-tab{
+  font-size: 25px;
 }

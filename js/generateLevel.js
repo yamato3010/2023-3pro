@@ -199,6 +199,7 @@ fetch('./levels.json')
       console.log(q);
       // ヒントエリアの描画
       let q_elm = document.createElement("li");
+      q_elm.classList.add('hint-text');
       q_elm.innerHTML = currentLevelData[0].board[q.loc[1]][q.loc[0]] + "." + q.kagi;
       if (q.direction == "vertical") {
         vertical_key.appendChild(q_elm);
