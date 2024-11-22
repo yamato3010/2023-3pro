@@ -2,7 +2,15 @@ fetch("level/levels.json")
   .then(response => response.json())
   .then(data => {
 
-    // 要素を生成する関数
+    /**
+     * カード要素を生成する関数
+     * @param {Object} level - レベルデータのオブジェクト
+     * @param {number} level.id - レベルのID
+     * @param {string} level.description - レベルの説明
+     * @param {string} level.levelSelectName - レベル選択名
+     * @param {string} level.image - レベルの画像ファイル名
+     * @returns {HTMLElement} - 生成されたカード要素
+     */
     function createCard(level) {
       // カードのdiv要素を作成
       const cardDiv = document.createElement('div');
