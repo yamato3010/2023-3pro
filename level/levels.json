@@ -116,23 +116,23 @@
         [-2, -2, -2, -2, -2, -2, -2, -2, -2, -2]
       ],
       "quiz": [
-        { "kagi": "ボールを前に投げてはいけない球技", "ans": "ra gu bi -", "loc": [1, 1], "direction": "vertical", "description": "最近盛り上がってますよね．", "url": "", "ansStr":"ラグビー" }
+        { "kagi": "ボールを前に投げてはいけない球技", "ans": "ra gu bi -", "loc": [1, 1], "direction": "vertical", "description": "ラグビー 最近盛り上がってますよね．", "url": "", "ansStr":"ラグビー" }
         ,
-        { "kagi": "ネットのついたスティックでボールを操る", "ans": "ra ku ro su", "loc": [1, 1], "direction": "horizontal", "description": "最近盛り上がってますよね．", "url": "", "ansStr":"ラクロス" }
+        { "kagi": "ネットのついたスティックでボールを操る", "ans": "ra ku ro su", "loc": [1, 1], "direction": "horizontal", "description": "ラクロス 最近盛り上がってますよね．", "url": "", "ansStr":"ラクロス" }
         ,
-        { "kagi": "最近はゲームも含まれます", "ans": "su po - tu", "loc": [4, 1], "direction": "vertical", "description": "最近盛り上がってますよね．", "url": "", "ansStr":"スポーツ" }
+        { "kagi": "最近はゲームも含まれます", "ans": "su po - tu", "loc": [4, 1], "direction": "vertical", "description": "スポーツ 最近盛り上がってますよね．", "url": "", "ansStr":"スポーツ" }
         ,
-        { "kagi": "雪の上を滑る競技", "ans": "su ki -", "loc": [6, 2], "direction": "vertical", "description": "最近盛り上がってますよね．", "url": "", "ansStr":"スキー" }
+        { "kagi": "雪の上を滑る競技", "ans": "su ki -", "loc": [6, 2], "direction": "vertical", "description": "スキー 最近盛り上がってますよね．", "url": "", "ansStr":"スキー" }
         ,
-        { "kagi": "映画『ロッキー』って熱いよね", "ans": "bo ku si n gu", "loc": [8, 2], "direction": "vertical", "description": "最近盛り上がってますよね．", "url": "", "ansStr":"ボクシング" }
+        { "kagi": "映画『ロッキー』って熱いよね", "ans": "bo ku si n gu", "loc": [8, 2], "direction": "vertical", "description": "ボクシング 最近盛り上がってますよね．", "url": "", "ansStr":"ボクシング" }
         ,
-        { "kagi": "湘南にいい波が来るってよ", "ans": "sa - fu i n", "loc": [3, 4], "direction": "vertical", "description": "最近盛り上がってますよね．", "url": "", "ansStr":"サーフィン" }
+        { "kagi": "湘南にいい波が来るってよ", "ans": "sa - fu li n", "loc": [3, 4], "direction": "vertical", "description": "サーフィン 最近盛り上がってますよね．", "url": "", "ansStr":"サーフィン" }
         ,
-        { "kagi": "イギリス発祥で蹴球とも言う", "ans": "sa tu ka -", "loc": [3, 4], "direction": "horizontal", "description": "最近盛り上がってますよね．", "url": "", "ansStr":"サッカー" }
+        { "kagi": "イギリス発祥で蹴球とも言う", "ans": "sa tu ka -", "loc": [3, 4], "direction": "horizontal", "description": "サッカー 最近盛り上がってますよね．", "url": "", "ansStr":"サッカー" }
         ,
-        { "kagi": "水辺の人命救助", "ans": "ra i fu se - bi n gu", "loc": [1, 6], "direction": "horizontal", "description": "最近盛り上がってますよね．", "url": "", "ansStr":"ライフセービング" }
+        { "kagi": "水辺の人命救助", "ans": "ra i fu se - bi n gu", "loc": [1, 6], "direction": "horizontal", "description": "ライフセービング 最近盛り上がってますよね．", "url": "", "ansStr":"ライフセービング" }
         ,
-        { "kagi": "剣を駆使して行われるエレガントなスポーツ", "ans": "fu e n si n gu", "loc": [1, 8], "direction": "horizontal", "description": "最近盛り上がってますよね．", "url": "", "ansStr":"フェンシング" }
+        { "kagi": "剣を駆使して行われるエレガントなスポーツ", "ans": "fu le n si n gu", "loc": [1, 8], "direction": "horizontal", "description": "フェンシング 最近盛り上がってますよね．", "url": "", "ansStr":"フェンシング" }
       ]
     },
     {
@@ -226,7 +226,7 @@
       { "kagi": "マウスを押す動作。リンクを開くときにも使う。", "ans": "ku ri ltu ku", "loc": [2, 1], "direction": "horizontal", "description": "あきらさんです．", "url": "","ansStr" :"クリック"},
       { "kagi": "Appleが販売するパソコンの愛称。またはハンバーガーチェーンの名前でもある。", "ans": "ma ltu ku", "loc": [4, 0], "direction": "vertical", "description": "あきらさんです．", "url": "","ansStr" :"クリック"},
       { "kagi": "メールやメッセージを相手に届ける操作。", "ans": "so u si n", "loc": [6, 2], "direction": "horizontal", "description": "あきらさんです．", "url": "","ansStr" :"送信"},
-      { "kagi": "パソコンで動くアプリケーションやプログラムの総称。", "ans": "so fu to u e a", "loc": [6, 2], "direction": "vertical", "description": "あきらさんです．", "url": "","ansStr" :"ソフトウェア"},
+      { "kagi": "パソコンで動くアプリケーションやプログラムの総称。", "ans": "so fu to u le a", "loc": [6, 2], "direction": "vertical", "description": "あきらさんです．", "url": "","ansStr" :"ソフトウェア"},
       { "kagi": "機械全般を指す言葉。コンピューターもこれに含まれる。", "ans": "ma si n", "loc": [9, 0], "direction": "vertical", "description": "あきらさんです．", "url": "","ansStr" :"マシン"},
       { "kagi": "インターネット接続を複数の端末に分配する機器。", "ans": "ru - ta", "loc": [2, 4], "direction": "horizontal", "description": "あきらさんです．", "url": "","ansStr" :"ルータ"},
       { "kagi": "ウェブブラウザで複数のページを切り替えるための部分。", "ans": "ta bu", "loc": [4, 4], "direction": "vertical", "description": "あきらさんです．", "url": "","ansStr" :"タブ"},
