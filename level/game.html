@@ -375,44 +375,16 @@
 		}
 	</script> -->
 	<script>
-		$(function () {
 			function end_loader() {
 				$('.loader').fadeOut(800);
 			}
 
-			$(window).on('load', function () {
+			window.onload = function() {
+				console.log('ページのすべてのリソースが読み込まれました');
 				setTimeout(function () {
 					end_loader();
 				}, 4000);
-			});
-
-			// 画像のロードを確認する
-			var images = $('img');
-			var imagesLoaded = 0;
-
-			images.each(function () {
-				if (this.complete) {
-					imagesLoaded++;
-				} else {
-					$(this).on('load', function () {
-						imagesLoaded++;
-						if (imagesLoaded == images.length) {
-							$(window).trigger('allImagesLoaded');
-						}
-					});
-				}
-			});
-
-			if (imagesLoaded == images.length) {
-				$(window).trigger('allImagesLoaded');
-			}
-
-			$(window).on('allImagesLoaded', function () {
-				setTimeout(function () {
-					end_loader();
-				}, 4000);
-			});
-		});
+			};
 	</script>
 
 
