@@ -286,7 +286,7 @@
 		<!-- 画面上部のメニューバー -->
 		<div class="menubar">
 			<h1 class="levelTitle menubar-text">なうろーでぃんぐ</h1>
-			<a class="btn btn-primary menubar-back-btn" type="button" 　onclick="location:href='selectLevel.html'"
+			<a class="btn btn-primary menubar-back-btn" type="button" onclick="location:href='selectLevel.html'"
 				href="../selectLevel.html" style="margin-top: -72px;">＜＜レベル選択画面に戻る</a>
 		</div>
 		<!-- <div class="menubar">
@@ -316,7 +316,7 @@
 				<h1>経過時間:</h1>
 				<div id="container">
 					<div id="time">
-						<p>00:00:00</p>
+						00:00:00
 					</div>
 				</div>
 				<p class="center-text"><br>上の指文字を使って
@@ -375,24 +375,14 @@
 		}
 	</script> -->
 	<script>
-			function end_loader() {
-				$('.loader').fadeOut(800);
-			}
-
-			window.onload = function() {
-				console.log('ページのすべてのリソースが読み込まれました');
-				setTimeout(function () {
-					end_loader();
-				}, 4000);
-			};
-	</script>
-
-
-	<script>
 		// タイマー処理
 		let timer;
 		let isPaused = false;
 		let elapsedTime = 0;
+
+		function end_loader() {
+			$('.loader').fadeOut(800);
+		}
 
 		function startTimer() {
 			if (isPaused) return;
@@ -417,12 +407,13 @@
 			startTimer();
 		}
 
-		$(window).on('allImagesLoaded', function () {
+		window.onload = function () {
+			console.log('ページのすべてのリソースが読み込まれました');
 			setTimeout(function () {
-				// setTimeout(startTimer, 10);
+				end_loader();
 				startTimer();
 			}, 4000);
-		});
+		};
 	</script>
 	<script src="../js/egg.js"></script>
 </body>
