@@ -8,7 +8,7 @@ window.descriptionArray = [];
 // アニメーションが必要になる文字のリスト
 // 画像ファイル名と一致させること
 // ltu lya lyu lyoは　っ　ゃ　ゅ　ょ　を表す
-const animLetter = ["ga", "gi", "gu", "ge", "go", "za", "zi", "zu", "ze", "zo", "da", "di", "du", "de", "do", "ba", "bi", "bu", "be", "bo", "pa", "pi", "pu", "pe", "po", "-", "ltu", "lya", "lyu", "lyo"]
+const animLetter = ["ga", "gi", "gu", "ge", "go", "za", "zi", "zu", "ze", "zo", "da", "di", "du", "de", "do", "ba", "bi", "bu", "be", "bo", "pa", "pi", "pu", "pe", "po", "-", "ltu", "lya", "lyu", "lyo", "li", "le"]
 
 function arrayShuffle(array) {
   for (let i = (array.length - 1); 0 < i; i--) {
