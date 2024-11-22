@@ -200,11 +200,28 @@ fetch('./levels.json')
       // ヒントエリアの描画
       let q_elm = document.createElement("li");
       q_elm.classList.add('hint-text');
+      // 検索アイコンを追加
+      // ボタンの生成
+      const button = document.createElement('button');
+      button.className = 'btn btn-primary btn-sm';
+      button.type = 'button';
+      // アイコンの生成
+      const icon = document.createElement('i');
+      icon.className = 'bi bi-search';
+      // ボタンにアイコンを追加
+      button.appendChild(icon);
+      // ボタンをクリックしたときの動作を設定
+      button.addEventListener('click', function () {
+        // 移動したいリンク先URLを設定
+        window.open('https://www.google.com/search?q=' + q.kagi);
+      });
       q_elm.innerHTML = currentLevelData[0].board[q.loc[1]][q.loc[0]] + "." + q.kagi;
       if (q.direction == "vertical") {
         vertical_key.appendChild(q_elm);
+        q_elm.appendChild(button);
       } else if (q.direction == "horizontal") {
         horizontal_key.appendChild(q_elm);
+        q_elm.appendChild(button);
       }
 
       // dataCheckGroupsに枠組みを追加
