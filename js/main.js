@@ -59,6 +59,35 @@ function checkCorrectness(group) {
   }
 }
 
+/**
+ * ローマ字をひらがなに変換する関数
+ * @param {string} romaji - 変換したいローマ字
+ * @returns {string} - 変換されたひらがな
+ */
+function romajiToHiragana(romaji) {
+  const romajiToHiraganaMap = {
+      'a': 'あ', 'i': 'い', 'u': 'う', 'e': 'え', 'o': 'お',
+      'ka': 'か', 'ki': 'き', 'ku': 'く', 'ke': 'け', 'ko': 'こ',
+      'sa': 'さ', 'shi': 'し', 'su': 'す', 'se': 'せ', 'so': 'そ',
+      'ta': 'た', 'chi': 'ち', 'tsu': 'つ', 'te': 'て', 'to': 'と',
+      'na': 'な', 'ni': 'に', 'nu': 'ぬ', 'ne': 'ね', 'no': 'の',
+      'ha': 'は', 'hi': 'ひ', 'fu': 'ふ', 'he': 'へ', 'ho': 'ほ',
+      'ma': 'ま', 'mi': 'み', 'mu': 'む', 'me': 'め', 'mo': 'も',
+      'ya': 'や', 'yu': 'ゆ', 'yo': 'よ',
+      'ra': 'ら', 'ri': 'り', 'ru': 'る', 're': 'れ', 'ro': 'ろ',
+      'wa': 'わ', 'wo': 'を', 'n': 'ん',
+      'ga': 'が', 'gi': 'ぎ', 'gu': 'ぐ', 'ge': 'げ', 'go': 'ご',
+      'za': 'ざ', 'ji': 'じ', 'zu': 'ず', 'ze': 'ぜ', 'zo': 'ぞ',
+      'da': 'だ', 'ji': 'ぢ', 'zu': 'づ', 'de': 'で', 'do': 'ど',
+      'ba': 'ば', 'bi': 'び', 'bu': 'ぶ', 'be': 'べ', 'bo': 'ぼ',
+      'pa': 'ぱ', 'pi': 'ぴ', 'pu': 'ぷ', 'pe': 'ぺ', 'po': 'ぽ',
+      'ltu': 'っ', 'xtu': 'っ', 'la': 'ぁ', 'li': 'ぃ', 'lu': 'ぅ',
+      'le': 'ぇ', 'lo': 'ぉ',
+  };
+
+  return romajiToHiraganaMap[romaji] || romaji;
+}
+
 $(document).ready(function () {
   // 文字選択ボタンをクリックしたときの処理
   $('.wrapper.row').on('click', '.letter-button', function () {
@@ -165,6 +194,23 @@ document.getElementById('correctModal').addEventListener('hidden.bs.modal', func
   if (allAlertsShown) {
     // タイマーを停止
     stopTimer();
+    // cell-content内のhand-syuwa-on-cellのimgタグをひっくり返して文字に置き換える
+    var imgElements = document.querySelectorAll('.hand-syuwa-on-cell');
+    imgElements.forEach(function (imgElement) {
+      // 画像を回転させるクラスを追加
+      imgElement.classList.add('vertical-rotate-animation');
+      // アニメーション終了後に文字に置き換える
+      imgElement.addEventListener('animationend', function() {
+        var letter = romajiToHiragana(imgElement.getAttribute('data-letter'));
+        var parentElement = imgElement.parentElement;
+        parentElement.removeChild(imgElement);
+        // テキストをdivタグで囲む
+        var textDiv = document.createElement('div');
+        textDiv.textContent = letter;
+        textDiv.classList.add('vertical-rotate-animation');
+        parentElement.appendChild(textDiv);
+      });
+    });
     // パーティクル表示
     var element = document.getElementById("particles-js");
     if (element) {

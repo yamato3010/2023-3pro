@@ -205,3 +205,16 @@ td img {
 #nav-tate-tab{
   font-size: 25px;
 }
+
+@keyframes vertical-rotate {
+  from {
+      transform: rotateY(0deg);
+  }
+  to {
+      transform: rotateY(360deg);
+  }
+}
+
+.vertical-rotate-animation {
+  animation: vertical-rotate 1s linear;
+}
