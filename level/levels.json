@@ -138,23 +138,23 @@
         [-2, -2, -2, -2, -2, -2, -2, -2, -2, -2]
       ],
       "quiz": [
-        { "kagi": "ボールを前に投げてはいけない球技", "ans": "ra gu bi -", "loc": [1, 1], "direction": "vertical", "description": "ラグビー 最近盛り上がってますよね．", "url": "https://www.youtube.com/embed/EsX9nb3xxDM", "ansStr":"ラグビー" }
+        { "kagi": "ボールを前に投げてはいけない球技", "ans": "ra gu bi -", "loc": [1, 1], "direction": "vertical", "description": "ラグビー 両手でラグビーボールの形を示し，ボールを抱えて走る動きをする．", "url": "https://www.youtube.com/embed/EsX9nb3xxDM", "ansStr":"ラグビー" }
         ,
-        { "kagi": "ネットのついたスティックでボールを操る", "ans": "ra ku ro su", "loc": [1, 1], "direction": "horizontal", "description": "ラクロス 最近盛り上がってますよね．", "url": "https://www.youtube.com/embed/", "ansStr":"ラクロス" }
+        { "kagi": "ネットのついたスティックでボールを操る", "ans": "ra ku ro su", "loc": [1, 1], "direction": "horizontal", "description": "ラクロス ", "url": "https://www.youtube.com/embed/U8qv8dW5D2s", "ansStr":"ラクロス" }
         ,
-        { "kagi": "最近はゲームも含まれます", "ans": "su po - tu", "loc": [4, 1], "direction": "vertical", "description": "スポーツ 最近盛り上がってますよね．", "url": "https://www.youtube.com/embed/QdB306sn6A4", "ansStr":"スポーツ" }
+        { "kagi": "最近はゲームも含まれます", "ans": "su po - tu", "loc": [4, 1], "direction": "vertical", "description": "スポーツ 両手を走る時のように動かす．", "url": "https://www.youtube.com/embed/QdB306sn6A4", "ansStr":"スポーツ" }
         ,
-        { "kagi": "雪の上を滑る競技", "ans": "su ki -", "loc": [6, 2], "direction": "vertical", "description": "スキー 最近盛り上がってますよね．", "url": "https://www.youtube.com/embed/dLsKMpFN86I", "ansStr":"スキー" }
+        { "kagi": "雪の上を滑る競技", "ans": "su ki -", "loc": [6, 2], "direction": "vertical", "description": "スキー 両手でストックを握って滑る動きをする．", "url": "https://www.youtube.com/embed/dLsKMpFN86I", "ansStr":"スキー" }
         ,
-        { "kagi": "映画『ロッキー』って熱いよね", "ans": "bo ku si n gu", "loc": [8, 2], "direction": "vertical", "description": "ボクシング 最近盛り上がってますよね．", "url": "https://www.youtube.com/embed/bzI0eMq0Lzg", "ansStr":"ボクシング" }
+        { "kagi": "映画『ロッキー』って熱いよね", "ans": "bo ku si n gu", "loc": [8, 2], "direction": "vertical", "description": "ボクシング 両手の拳で交互に打っていく．", "url": "https://www.youtube.com/embed/bzI0eMq0Lzg", "ansStr":"ボクシング" }
         ,
-        { "kagi": "湘南にいい波が来るってよ", "ans": "sa - fu li n", "loc": [3, 4], "direction": "vertical", "description": "サーフィン 最近盛り上がってますよね．", "url": "https://www.youtube.com/embed/T2pm1Vcjam8", "ansStr":"サーフィン" }
+        { "kagi": "湘南にいい波が来るってよ", "ans": "sa - fu li n", "loc": [3, 4], "direction": "vertical", "description": "サーフィン 左手掌に右手2指で立てサーフィンに乗って動きように左右にゆれながら前に出していく．", "url": "https://www.youtube.com/embed/T2pm1Vcjam8", "ansStr":"サーフィン" }
         ,
-        { "kagi": "イギリス発祥で蹴球とも言う", "ans": "sa tu ka -", "loc": [3, 4], "direction": "horizontal", "description": "サッカー 最近盛り上がってますよね．", "url": "https://www.youtube.com/embed/0Esgp98WtBQ", "ansStr":"サッカー" }
+        { "kagi": "イギリス発祥で蹴球とも言う", "ans": "sa tu ka -", "loc": [3, 4], "direction": "horizontal", "description": "サッカー 2指でつくった左手の輪を右手の2指の一方で蹴る．", "url": "https://www.youtube.com/embed/0Esgp98WtBQ", "ansStr":"サッカー" }
         ,
-        { "kagi": "水辺の人命救助", "ans": "ra i fu se - bi n gu", "loc": [1, 6], "direction": "horizontal", "description": "ライフセービング 最近盛り上がってますよね．", "url": "https://www.youtube.com/embed/GkFLKXxr7Zw", "ansStr":"ライフセービング" }
+        { "kagi": "水辺の人命救助", "ans": "ra i fu se - bi n gu", "loc": [1, 6], "direction": "horizontal", "description": "ライフセービング ", "url": "https://www.youtube.com/embed/GkFLKXxr7Zw", "ansStr":"ライフセービング" }
         ,
-        { "kagi": "剣を駆使して行われるエレガントなスポーツ", "ans": "fu le n si n gu", "loc": [1, 8], "direction": "horizontal", "description": "フェンシング 最近盛り上がってますよね．", "url": "https://www.youtube.com/embed/u-Mt8R1RPgQ", "ansStr":"フェンシング" }
+        { "kagi": "剣を駆使して行われるエレガントなスポーツ", "ans": "fu le n si n gu", "loc": [1, 8], "direction": "horizontal", "description": "フェンシング 左手を上げ，右手人差し指を前に2度突き出す．", "url": "https://www.youtube.com/embed/u-Mt8R1RPgQ", "ansStr":"フェンシング" }
       ]
     },
     {
@@ -205,7 +205,7 @@
 
             { "kagi": "苗字ランキング：2位，同じ名前の魚がいるよ，イチローの苗字", "ans": "su zu ki", "loc": [0, 5], "direction": "horizontal", "description": "鈴木　実用手話p.306<鈴>+p.55<木>", "url": "https://www.youtube.com/embed/r5cnFRK5ZE4", "ansStr":"鈴木" },
 
-            { "kagi": "苗字ランキング：757位，タレント、YouTuber、元クイズプレイヤーの○○信哉や福岡ソフトバンクホークスの○○リチャードが有名", "ans": "su na ga wa", "loc": [0, 5], "direction": "vertical", "description": "砂川　p.131<砂>+p.52<川>", "url": "https://www.youtube.com/embed/ntaMRMSI-V0", "ansStr":"砂川" },
+            { "kagi": "苗字ランキング：757位，youtuber元クイズプレイヤーの○○信哉や福岡ソフトバンクホークスの○○リチャードが有名", "ans": "su na ga wa", "loc": [0, 5], "direction": "vertical", "description": "砂川　p.131<砂>+p.52<川>", "url": "https://www.youtube.com/embed/ntaMRMSI-V0", "ansStr":"砂川" },
 
             { "kagi": "苗字ランキング：17位，SMAPのメンバー，ちょまてよ", "ans": "ki mu ra", "loc": [2, 5], "direction": "vertical", "description": "木村　p.55<木>+p.14<村>", "url": "https://www.youtube.com/embed/lUkf8HK92Ig", "ansStr":"木村" },
 
@@ -215,7 +215,7 @@
 
             { "kagi": "苗字ランキング：80位，とろサーモン久保田の相方", "ans": "mu ra ta", "loc": [2, 6], "direction": "horizontal", "description": "村田　p.14<村>+実用手話p.331<田>", "url": "https://www.youtube.com/embed/JfFr6T26gZY","ansStr":"村田" },
 
-            { "kagi": "苗字ランキング：4位，アンガール○○,○○圭", "ans": "ta na ka", "loc": [4, 6], "direction": "vertical", "description": "田中　実用手話p.331<田>+p.117<中>", "url": "https://www.youtube.com/embed/0VbmDHuAP9A","ansStr":"田中" },
+            { "kagi": "苗字ランキング：4位，アンガール○○，○○圭", "ans": "ta na ka", "loc": [4, 6], "direction": "vertical", "description": "田中　実用手話p.331<田>+p.117<中>", "url": "https://www.youtube.com/embed/0VbmDHuAP9A","ansStr":"田中" },
 
             { "kagi": "苗字ランキング：6位，同じ読みでも，様々な漢字が当てはまる，○○謙，○○裕之", "ans": "wa ta na be", "loc": [9, 6], "direction": "vertical", "description": "渡辺　", "url": "https://www.youtube.com/embed/eaxLLWK9QLM","ansStr":"渡辺" },
 
@@ -251,18 +251,18 @@
       ],
       "quiz": [
       { "kagi": "世界的に有名なソフトウェア会社。Windowsでおなじみ。", "ans": "ma i ku ro so fu to", "loc": [0, 0], "direction": "vertical", "description": "マイクロソフト あきらさんです．", "url": "https://www.youtube.com/embed/sfOd8HBiP9c","ansStr" :"マイクロソフト"},
-      { "kagi": "コンピューターの入力デバイスで、クリックやスクロールに使う。", "ans": "ma u su", "loc": [0, 0], "direction": "horizontal", "description": "マウス あきらさんです．", "url": "https://www.youtube.com/embed/R0UtO-SXck4","ansStr" :"マウス"},
-      { "kagi": "画面を上下や左右に動かす操作のこと。", "ans": "su ku ro - ru", "loc": [2, 0], "direction": "vertical", "description": "スクロール あきらさんです．", "url": "https://www.youtube.com/embed/h2gvwi3XzBc","ansStr" :"スクロール"},
-      { "kagi": "マウスを押す動作。リンクを開くときにも使う。", "ans": "ku ri ltu ku", "loc": [2, 1], "direction": "horizontal", "description": "クリック あきらさんです．", "url": "https://www.youtube.com/embed/MA5INarVlMs","ansStr" :"クリック"},
-      { "kagi": "Appleが販売するパソコンの愛称。またはハンバーガーチェーンの名前でもある。", "ans": "ma ltu ku", "loc": [4, 0], "direction": "vertical", "description": "Mac（まっく） あきらさんです．", "url": "https://www.youtube.com/embed/T5T7zq8NdFs","ansStr" :"Mac（まっく）"},
-      { "kagi": "メールやメッセージを相手に届ける操作。", "ans": "so u si n", "loc": [6, 2], "direction": "horizontal", "description": "送信 あきらさんです．", "url": "https://www.youtube.com/embed/lENJsNz2BUs","ansStr" :"送信"},
-      { "kagi": "パソコンで動くアプリケーションやプログラムの総称。", "ans": "so fu to u le a", "loc": [6, 2], "direction": "vertical", "description": "ソフトウェア あきらさんです．", "url": "https://www.youtube.com/embed/J7JEBoXdpP4","ansStr" :"ソフトウェア"},
-      { "kagi": "機械全般を指す言葉。コンピューターもこれに含まれる。", "ans": "ma si n", "loc": [9, 0], "direction": "vertical", "description": "マシン あきらさんです．", "url": "https://www.youtube.com/embed/hdkxJB5TOp4","ansStr" :"マシン"},
-      { "kagi": "インターネット接続を複数の端末に分配する機器。", "ans": "ru - ta", "loc": [2, 4], "direction": "horizontal", "description": "ルータ あきらさんです．", "url": "https://www.youtube.com/embed/UXnko_apPUw","ansStr" :"ルータ"},
-      { "kagi": "ウェブブラウザで複数のページを切り替えるための部分。", "ans": "ta bu", "loc": [4, 4], "direction": "vertical", "description": "タブ あきらさんです．", "url": "https://www.youtube.com/embed/iis62qI9kcs","ansStr" :"タブ"},
-      { "kagi": "インターネットでウェブサイトを見るためのソフトウェア。", "ans": "bu ra u za", "loc": [4, 5], "direction": "horizontal", "description": "ブラウザ あきらさんです．", "url": "https://www.youtube.com/embed/Pby_bLkeNrE","ansStr" :"ブラウザ"},
-      { "kagi": "アカウントを作るときに必要な手続き。", "ans": "to u ro ku", "loc": [0, 6], "direction": "horizontal", "description": "登録 あきらさんです．", "url": "https://www.youtube.com/embed/E6Iee0qG8mI","ansStr" :"登録"},
-      { "kagi": "サイトやアプリにアクセスするために、IDやパスワードを入力する。", "ans": "ro gu i n", "loc": [2, 6], "direction": "vertical", "description": "ログイン あきらさんです．", "url": "https://www.youtube.com/embed/WFAMiWgl9cQ","ansStr" :"ログイン"},
+      { "kagi": "コンピューターの入力デバイスで、クリックやスクロールに使う。", "ans": "ma u su", "loc": [0, 0], "direction": "horizontal", "description": "マウス 人差し指と中指を少し曲げた右手を水平にぐるぐる回す．", "url": "https://www.youtube.com/embed/R0UtO-SXck4","ansStr" :"マウス"},
+      { "kagi": "画面を上下や左右に動かす操作のこと。", "ans": "su ku ro - ru", "loc": [2, 0], "direction": "vertical", "description": "スクロール 開いた両手を上下に動かす．", "url": "https://www.youtube.com/embed/h2gvwi3XzBc","ansStr" :"スクロール"},
+      { "kagi": "マウスを押す動作。リンクを開くときにも使う。", "ans": "ku ri ltu ku", "loc": [2, 1], "direction": "horizontal", "description": "クリック 右手を軽く下向きに握って人差し指だけ動かす．", "url": "https://www.youtube.com/embed/MA5INarVlMs","ansStr" :"クリック"},
+      { "kagi": "Appleが販売するパソコンの愛称。またはハンバーガーチェーンの名前でもある。", "ans": "ma ltu ku", "loc": [4, 0], "direction": "vertical", "description": "Mac（まっく） ", "url": "https://www.youtube.com/embed/T5T7zq8NdFs","ansStr" :"Mac（まっく）"},
+      { "kagi": "メールやメッセージを相手に届ける操作。", "ans": "so u si n", "loc": [6, 2], "direction": "horizontal", "description": "送信 左手を立てて，右手人差し指を左手のひらから前方に動かす．", "url": "https://www.youtube.com/embed/lENJsNz2BUs","ansStr" :"送信"},
+      { "kagi": "パソコンで動くアプリケーションやプログラムの総称。", "ans": "so fu to u le a", "loc": [6, 2], "direction": "vertical", "description": "ソフトウェア <柔らかい>+<色々>", "url": "https://www.youtube.com/embed/J7JEBoXdpP4","ansStr" :"ソフトウェア"},
+      { "kagi": "機械全般を指す言葉。コンピューターもこれに含まれる。", "ans": "ma si n", "loc": [9, 0], "direction": "vertical", "description": "マシン ", "url": "https://www.youtube.com/embed/hdkxJB5TOp4","ansStr" :"マシン"},
+      { "kagi": "インターネット接続を複数の端末に分配する機器。", "ans": "ru - ta", "loc": [2, 4], "direction": "horizontal", "description": "ルータ 指文字<る>を，左手の指文字<あ>の親指に横から近づけ，前方に出す動作を反復する．", "url": "https://www.youtube.com/embed/UXnko_apPUw","ansStr" :"ルータ"},
+      { "kagi": "ウェブブラウザで複数のページを切り替えるための部分。", "ans": "ta bu", "loc": [4, 4], "direction": "vertical", "description": "タブ 指文字<く>の左手の親指を右手親指と人差し指で上に引っ張る．", "url": "https://www.youtube.com/embed/iis62qI9kcs","ansStr" :"タブ"},
+      { "kagi": "インターネットでウェブサイトを見るためのソフトウェア。", "ans": "bu ra u za", "loc": [4, 5], "direction": "horizontal", "description": "ブラウザ 上方からつまんで左手のひらに取る+<読む>．", "url": "https://www.youtube.com/embed/Pby_bLkeNrE","ansStr" :"ブラウザ"},
+      { "kagi": "アカウントを作るときに必要な手続き。", "ans": "to u ro ku", "loc": [0, 6], "direction": "horizontal", "description": "登録 <あ>の右手親指の指先を左手のひらにつけ，右手親指を左手指先へずらす．", "url": "https://www.youtube.com/embed/E6Iee0qG8mI","ansStr" :"登録"},
+      { "kagi": "サイトやアプリにアクセスするために、IDやパスワードを入力する。", "ans": "ro gu i n", "loc": [2, 6], "direction": "vertical", "description": "ログイン ", "url": "https://www.youtube.com/embed/WFAMiWgl9cQ","ansStr" :"ログイン"},
       { "kagi": "デジタルではない方法やシステムのこと。", "ans": "a na ro gu", "loc": [6, 7], "direction": "horizontal", "description": "アナログ あきらさんです．", "url": "https://www.youtube.com/embed/KT8OeE3HsIo","ansStr" :"アナログ"},
       { "kagi": "データを読み込むこと。ゲームやアプリでよく見られる。", "ans": "ro - do", "loc": [8, 7], "direction": "vertical", "description": "ロード あきらさんです．", "url": "https://www.youtube.com/embed/JyP3dSCeLCw","ansStr" :"ロード"},
       { "kagi": "動画や音声を圧縮する形式の一つ", "ans": "e mu pe gu", "loc": [9, 4], "direction": "vertical", "description": "MPEG（えむぺぐ） あきらさんです．", "url": "https://www.youtube.com/embed/NYyEhkq7XGE","ansStr" :"MPEG（えむぺぐ）"},
