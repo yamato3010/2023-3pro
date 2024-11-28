@@ -97,17 +97,17 @@
         [-1, 12,  0, -1, -1, 13,  0,  0,  0, -2]
       ],
       "quiz": [
-        { "kagi": "日本一大きいよね", "ans": "ho ltu ka i do u", "loc": [2, 2], "direction": "horizontal", "description": "北海道　p.175甲側を前に向けた両手2指で上から「◇」の形を描く", "url": "https://www.youtube.com/embed/Jzxzq3J-Zxk", "ansStr":"北海道"},
-        { "kagi": "能登半島といえば", "ans": "i si ka wa", "loc": [5, 2], "direction": "vertical", "description": "石川県　実用手話p.72<石>+<川>", "url": "https://www.youtube.com/embed/OTje3ODDYNs", "ansStr":"石川県"},
-        { "kagi": "中華街が有名", "ans": "ka na ga wa", "loc": [5, 4], "direction": "horizontal", "description": "神奈川県　p.47両手の掌を1回打ち合わせ，左手を残して右手で<川>", "url": "https://www.youtube.com/embed/MVjXSrCw8bg","ansStr":"神奈川県" },
-        { "kagi": "熊野古道，白浜温泉，有田みかん", "ans": "wa ka ya ma", "loc": [8, 4], "direction": "vertical", "description": "和歌山県　p.207伸ばした右手の人差し指側を口元にあてる", "url": "https://www.youtube.com/embed/uv9EhLhfPX4","ansStr":"和歌山県" },
-        { "kagi": "喜多方ラーメン,会津若松城といえば", "ans": "fu ku si ma", "loc": [5, 7], "direction": "horizontal", "description": "福島県　p.162<幸せ>+<島>", "url": "https://www.youtube.com/embed/MASbeTCag3g","ansStr":"福島県"},
-        { "kagi": "阿波踊り，大鳴門橋架橋といえば", "ans": "to ku si ma", "loc": [6, 6], "direction": "vertical", "description": "徳島県　p.128<なるほど>+<島>", "url": "https://www.youtube.com/embed/Zj-C1_nlcFw","ansStr":"徳島県" },
-        { "kagi": "うどんといえば", "ans": "ka ga wa", "loc": [3, 5], "direction": "horizontal", "description": "香川県　p.41＜香る＞＋＜川＞の手話で香川となる", "url": "https://www.youtube.com/embed/2fq1B4uKyG0","ansStr":"香川県" },
-        { "kagi": "甲子園と言えば，神戸市が有名", "ans": "hi lyo u go", "loc": [0, 6], "direction": "horizontal", "description": "兵庫県　p.159両手拳を上下につけあわせ，右胸にあてる（兵隊，軍と同じ）", "url": "https://www.youtube.com/embed/2eD3MKAzhlY","ansStr":"兵庫県" },
-        { "kagi": "日本の首都", "ans": "to u ki lyo u", "loc": [1, 3], "direction": "vertical", "description": "東京都　p.125両手2指を直角に伸ばし，親指の指先をみき合わせて2回上げる", "url": "https://www.youtube.com/embed/HOvWo5Osakg","ansStr":"東京都"},
+        { "kagi": "日本一大きいよね", "ans": "ho ltu ka i do u", "loc": [2, 2], "direction": "horizontal", "description": "北海道　甲側を前に向けた両手2指で上から「◇」の形を描く", "url": "https://www.youtube.com/embed/Jzxzq3J-Zxk", "ansStr":"北海道"},
+        { "kagi": "能登半島といえば", "ans": "i si ka wa", "loc": [5, 2], "direction": "vertical", "description": "石川県　<石>+<川>", "url": "https://www.youtube.com/embed/OTje3ODDYNs", "ansStr":"石川県"},
+        { "kagi": "中華街が有名", "ans": "ka na ga wa", "loc": [5, 4], "direction": "horizontal", "description": "神奈川県　両手の掌を1回打ち合わせ，左手を残して右手で<川>", "url": "https://www.youtube.com/embed/MVjXSrCw8bg","ansStr":"神奈川県" },
+        { "kagi": "熊野古道，白浜温泉，有田みかん", "ans": "wa ka ya ma", "loc": [8, 4], "direction": "vertical", "description": "和歌山県　伸ばした右手の人差し指側を口元にあてる", "url": "https://www.youtube.com/embed/uv9EhLhfPX4","ansStr":"和歌山県" },
+        { "kagi": "喜多方ラーメン,会津若松城といえば", "ans": "fu ku si ma", "loc": [5, 7], "direction": "horizontal", "description": "福島県　<幸せ>+<島>", "url": "https://www.youtube.com/embed/MASbeTCag3g","ansStr":"福島県"},
+        { "kagi": "阿波踊り，大鳴門橋架橋といえば", "ans": "to ku si ma", "loc": [6, 6], "direction": "vertical", "description": "徳島県　<なるほど>+<島>", "url": "https://www.youtube.com/embed/Zj-C1_nlcFw","ansStr":"徳島県" },
+        { "kagi": "うどんといえば", "ans": "ka ga wa", "loc": [3, 5], "direction": "horizontal", "description": "香川県　＜香る＞＋＜川＞の手話で香川となる", "url": "https://www.youtube.com/embed/2fq1B4uKyG0","ansStr":"香川県" },
+        { "kagi": "甲子園と言えば，神戸市が有名", "ans": "hi lyo u go", "loc": [0, 6], "direction": "horizontal", "description": "兵庫県　両手拳を上下につけあわせ，右胸にあてる（兵隊，軍と同じ）", "url": "https://www.youtube.com/embed/2eD3MKAzhlY","ansStr":"兵庫県" },
+        { "kagi": "日本の首都", "ans": "to u ki lyo u", "loc": [1, 3], "direction": "vertical", "description": "東京都　両手2指を直角に伸ばし，親指の指先をみき合わせて2回上げる", "url": "https://www.youtube.com/embed/HOvWo5Osakg","ansStr":"東京都"},
 
-        { "kagi": "四国の南部,四万十川,カツオが有名", "ans": "ko u ti", "loc": [0, 4], "direction": "horizontal", "description": "高知県　実用手話p.221<高い>+<知る>", "url": "https://www.youtube.com/embed/PjSkBjx9ALc","ansStr":"高知県"},
+        { "kagi": "四国の南部,四万十川,カツオが有名", "ans": "ko u ti", "loc": [0, 4], "direction": "horizontal", "description": "高知県　<高い>+<知る>", "url": "https://www.youtube.com/embed/PjSkBjx9ALc","ansStr":"高知県"},
 
         { "kagi": "出雲大社，石見銀山といえば", "ans": "si ma ne", "loc": [2, 8], "direction": "horizontal", "description": "島根県　左手で<島>を表現した後，左手を残して右手で<ね>", "url": "https://www.youtube.com/embed/pV94NRvdiek","ansStr":"島根県"},
 
@@ -183,45 +183,45 @@
 
             { "kagi": "苗字ランキング：109位，実は「わたなべ」とも呼ぶ", "ans": "wa ta be", "loc": [9, 0], "direction": "vertical", "description": "渡部　", "url": "https://www.youtube.com/embed/1M8V2bzsSQE", "ansStr":"渡辺" },
 
-             { "kagi": "苗字ランキング：387位，アムロ・レイの声優で有名", "ans": "fu ru ya", "loc": [0, 1], "direction": "horizontal", "description": "古谷　p.167<古>+p.114<谷>", "url": "https://www.youtube.com/embed/2T-4iMZ1xbY", "ansStr":"古谷" },
+             { "kagi": "苗字ランキング：387位，アムロ・レイの声優で有名", "ans": "fu ru ya", "loc": [0, 1], "direction": "horizontal", "description": "古谷　<古>+<谷>", "url": "https://www.youtube.com/embed/2T-4iMZ1xbY", "ansStr":"古谷" },
             
-            { "kagi": "苗字ランキング：12位，俳優には孝之，野球選手には哲人", "ans": "ya ma da", "loc": [2, 1], "direction": "vertical", "description": "山田　p.194<山>+実用手話p.331<田>", "url": "https://www.youtube.com/embed/hcGwWq81N2w", "ansStr":"山田" },
+            { "kagi": "苗字ランキング：12位，俳優には孝之，野球選手には哲人", "ans": "ya ma da", "loc": [2, 1], "direction": "vertical", "description": "山田　<山>+<田>", "url": "https://www.youtube.com/embed/hcGwWq81N2w", "ansStr":"山田" },
 
-            { "kagi": "苗字ランキング：1位，甘そう，○○健や○○二朗が有名", "ans": "sa to u", "loc": [5, 1], "direction": "vertical", "description": "佐藤　p.7右手掌を口に向けて回す（<砂糖>，<甘い>の手話で表す）", "url": "https://www.youtube.com/embed/EcVELimoD6Y","ansStr":"佐藤"},
+            { "kagi": "苗字ランキング：1位，甘そう，○○健や○○二朗が有名", "ans": "sa to u", "loc": [5, 1], "direction": "vertical", "description": "佐藤　右手掌を口に向けて回す（<砂糖>，<甘い>の手話で表す）", "url": "https://www.youtube.com/embed/EcVELimoD6Y","ansStr":"佐藤"},
 
-            { "kagi": "苗字ランキング：13位，宮本武蔵のライバル，○○○小次郎", "ans": "sa sa ki", "loc": [5, 1], "direction": "horizontal", "description": "佐々木　", "url": "https://www.youtube.com/embed/id5MLa2IOSY", "ansStr":"佐々木" },
+            { "kagi": "苗字ランキング：13位，宮本武蔵のライバル，○○○小次郎", "ans": "sa sa ki", "loc": [5, 1], "direction": "horizontal", "description": "佐々木　背中の剣を抜く動作をする（佐々木小次郎が由来）", "url": "https://www.youtube.com/embed/id5MLa2IOSY", "ansStr":"佐々木" },
 
             { "kagi": "苗字ランキング：13位，ダウンタウン浜田の相方", "ans": "ma tu mo to", "loc": [2, 2], "direction": "horizontal", "description": "松本　", "url": "https://www.youtube.com/embed/28h7eTtbZ_I", "ansStr":"松本" },
 
-            { "kagi": "苗字ランキング：11位，元総理大臣や，霊長類最強の人の苗字", "ans": "yo si da", "loc": [0, 3], "direction": "horizontal", "description": "吉田　p.197<吉，良い>+実用手話p.331<田>", "url": "https://www.youtube.com/embed/BAMPWbPa-C8", "ansStr":"吉田" },
+            { "kagi": "苗字ランキング：11位，元総理大臣や，霊長類最強の人の苗字", "ans": "yo si da", "loc": [0, 3], "direction": "horizontal", "description": "吉田　<吉，良い>+<田>", "url": "https://www.youtube.com/embed/BAMPWbPa-C8", "ansStr":"吉田" },
 
             { "kagi": "苗字ランキング：20位，静岡県の市，エスパルス", "ans": "si mi zu", "loc": [1, 3], "direction": "vertical", "description": "清水　", "url": "https://www.youtube.com/embed/3SM5ZGyOK-8", "ansStr":"清水" },
 
-            { "kagi": "苗字ランキング：1135位，ハイキュー！！より，白鳥沢のエース，闇金でも有名", "ans": "u si zi ma", "loc": [5, 3], "direction": "horizontal", "description": "牛島　p.19<牛>+p.95<島>", "url": "https://www.youtube.com/embed/MSBzi2HwcEY", "ansStr":"牛島" },
+            { "kagi": "苗字ランキング：1135位，ハイキュー！！より，白鳥沢のエース，闇金でも有名", "ans": "u si zi ma", "loc": [5, 3], "direction": "horizontal", "description": "牛島　<牛>+<島>", "url": "https://www.youtube.com/embed/MSBzi2HwcEY", "ansStr":"牛島" },
 
-            { "kagi": "苗字ランキング：77位，ポケモン赤・緑などで作曲を担当", "ans": "ma su da", "loc": [8, 3], "direction": "vertical", "description": "増田　p.161<増える>+実用手話p.331<田>", "url": "https://www.youtube.com/embed/uiwcjuMSoJc", "ansStr":"増田" },
+            { "kagi": "苗字ランキング：77位，ポケモン赤・緑などで作曲を担当", "ans": "ma su da", "loc": [8, 3], "direction": "vertical", "description": "増田　<増える>+<田>", "url": "https://www.youtube.com/embed/uiwcjuMSoJc", "ansStr":"増田" },
 
             { "kagi": "苗字ランキング：693位，オリエンタルラジオ藤森慎吾の出身地長野県○○市", "ans": "su wa", "loc": [8, 4], "direction": "horizontal", "description": "諏訪　", "url": "https://www.youtube.com/embed/VKjFgG8VU3w", "ansStr":"諏訪" },
 
-            { "kagi": "苗字ランキング：2位，同じ名前の魚がいるよ，イチローの苗字", "ans": "su zu ki", "loc": [0, 5], "direction": "horizontal", "description": "鈴木　実用手話p.306<鈴>+p.55<木>", "url": "https://www.youtube.com/embed/r5cnFRK5ZE4", "ansStr":"鈴木" },
+            { "kagi": "苗字ランキング：2位，同じ名前の魚がいるよ，イチローの苗字", "ans": "su zu ki", "loc": [0, 5], "direction": "horizontal", "description": "鈴木　<鈴>+<木>", "url": "https://www.youtube.com/embed/r5cnFRK5ZE4", "ansStr":"鈴木" },
 
             { "kagi": "苗字ランキング：757位，youtuber元クイズプレイヤーの○○信哉や福岡ソフトバンクホークスの○○リチャードが有名", "ans": "su na ga wa", "loc": [0, 5], "direction": "vertical", "description": "砂川　p.131<砂>+p.52<川>", "url": "https://www.youtube.com/embed/ntaMRMSI-V0", "ansStr":"砂川" },
 
-            { "kagi": "苗字ランキング：17位，SMAPのメンバー，ちょまてよ", "ans": "ki mu ra", "loc": [2, 5], "direction": "vertical", "description": "木村　p.55<木>+p.14<村>", "url": "https://www.youtube.com/embed/lUkf8HK92Ig", "ansStr":"木村" },
+            { "kagi": "苗字ランキング：17位，SMAPのメンバー，ちょまてよ", "ans": "ki mu ra", "loc": [2, 5], "direction": "vertical", "description": "木村　<木>+<村>", "url": "https://www.youtube.com/embed/lUkf8HK92Ig", "ansStr":"木村" },
 
-            { "kagi": "苗字ランキング：516位，第100，101代内閣総理大臣", "ans": "ki si da", "loc": [6, 5], "direction": "horizontal", "description": "岸田　p.21<岸>+実用手話p.331<田>", "url": "https://www.youtube.com/embed/DcDp6lcje4g" ,"ansStr":"岸田"},
+            { "kagi": "苗字ランキング：516位，第100，101代内閣総理大臣", "ans": "ki si da", "loc": [6, 5], "direction": "horizontal", "description": "岸田　<岸>+<田>", "url": "https://www.youtube.com/embed/DcDp6lcje4g" ,"ansStr":"岸田"},
 
             { "kagi": "苗字ランキング：556位，城の崎にて，暗夜行路，網走まで，琵琶湖がある県と同じ読み方", "ans": "si ga", "loc": [7, 5], "direction": "vertical", "description": "志賀　", "url":"https://www.youtube.com/embed/aYqUA47HBUE","ansStr":"志賀" },
 
-            { "kagi": "苗字ランキング：80位，とろサーモン久保田の相方", "ans": "mu ra ta", "loc": [2, 6], "direction": "horizontal", "description": "村田　p.14<村>+実用手話p.331<田>", "url": "https://www.youtube.com/embed/JfFr6T26gZY","ansStr":"村田" },
+            { "kagi": "苗字ランキング：80位，とろサーモン久保田の相方", "ans": "mu ra ta", "loc": [2, 6], "direction": "horizontal", "description": "村田　<村>+<田>", "url": "https://www.youtube.com/embed/JfFr6T26gZY","ansStr":"村田" },
 
-            { "kagi": "苗字ランキング：4位，アンガール○○，○○圭", "ans": "ta na ka", "loc": [4, 6], "direction": "vertical", "description": "田中　実用手話p.331<田>+p.117<中>", "url": "https://www.youtube.com/embed/0VbmDHuAP9A","ansStr":"田中" },
+            { "kagi": "苗字ランキング：4位，アンガール○○，○○圭", "ans": "ta na ka", "loc": [4, 6], "direction": "vertical", "description": "田中　<田>+<中>", "url": "https://www.youtube.com/embed/0VbmDHuAP9A","ansStr":"田中" },
 
             { "kagi": "苗字ランキング：6位，同じ読みでも，様々な漢字が当てはまる，○○謙，○○裕之", "ans": "wa ta na be", "loc": [9, 6], "direction": "vertical", "description": "渡辺　", "url": "https://www.youtube.com/embed/eaxLLWK9QLM","ansStr":"渡辺" },
 
-            { "kagi": "苗字ランキング：49位，東京の23区にも存在する，天智天皇は○○○おおえのおうじと呼ばれていた", "ans": "na ka no", "loc": [4, 7], "direction": "horizontal", "description": "中野　", "url": "https://www.youtube.com/embed/yElkvl20FAc","ansStr":"中野" },
+            { "kagi": "苗字ランキング：49位，東京の23区にも存在する，天智天皇は○○○おおえのおうじと呼ばれていた", "ans": "na ka no", "loc": [4, 7], "direction": "horizontal", "description": "中野　<中>+<の>", "url": "https://www.youtube.com/embed/yElkvl20FAc","ansStr":"中野" },
 
-            { "kagi": "苗字ランキング：417位，孫悟空，星野鉄郎の声優", "ans": "no za wa", "loc": [6, 7], "direction": "vertical", "description": "野沢　", "url": "https://www.youtube.com/embed/m6Z2StE_UDM","ansStr":"野沢" },
+            { "kagi": "苗字ランキング：417位，孫悟空，星野鉄郎の声優", "ans": "no za wa", "loc": [6, 7], "direction": "vertical", "description": "野沢　<の>+<沢山>", "url": "https://www.youtube.com/embed/m6Z2StE_UDM","ansStr":"野沢" },
 
             { "kagi": "苗字ランキング：667位，「ひまわりの約束」で有名", "ans": "ha ta", "loc": [8, 7], "direction": "horizontal", "description": "秦　", "url": "https://www.youtube.com/embed/cCMfRZazVsE","ansStr":"秦"},
 
@@ -250,7 +250,7 @@
         [16,  0,  0, -1, -1, -1, -1, -1,  0, -1]
       ],
       "quiz": [
-      { "kagi": "世界的に有名なソフトウェア会社。Windowsでおなじみ。", "ans": "ma i ku ro so fu to", "loc": [0, 0], "direction": "vertical", "description": "マイクロソフト あきらさんです．", "url": "https://www.youtube.com/embed/sfOd8HBiP9c","ansStr" :"マイクロソフト"},
+      { "kagi": "世界的に有名なソフトウェア会社。Windowsでおなじみ。", "ans": "ma i ku ro so fu to", "loc": [0, 0], "direction": "vertical", "description": "マイクロソフト ", "url": "https://www.youtube.com/embed/sfOd8HBiP9c","ansStr" :"マイクロソフト"},
       { "kagi": "コンピューターの入力デバイスで、クリックやスクロールに使う。", "ans": "ma u su", "loc": [0, 0], "direction": "horizontal", "description": "マウス 人差し指と中指を少し曲げた右手を水平にぐるぐる回す．", "url": "https://www.youtube.com/embed/R0UtO-SXck4","ansStr" :"マウス"},
       { "kagi": "画面を上下や左右に動かす操作のこと。", "ans": "su ku ro - ru", "loc": [2, 0], "direction": "vertical", "description": "スクロール 開いた両手を上下に動かす．", "url": "https://www.youtube.com/embed/h2gvwi3XzBc","ansStr" :"スクロール"},
       { "kagi": "マウスを押す動作。リンクを開くときにも使う。", "ans": "ku ri ltu ku", "loc": [2, 1], "direction": "horizontal", "description": "クリック 右手を軽く下向きに握って人差し指だけ動かす．", "url": "https://www.youtube.com/embed/MA5INarVlMs","ansStr" :"クリック"},
@@ -262,12 +262,12 @@
       { "kagi": "ウェブブラウザで複数のページを切り替えるための部分。", "ans": "ta bu", "loc": [4, 4], "direction": "vertical", "description": "タブ 指文字<く>の左手の親指を右手親指と人差し指で上に引っ張る．", "url": "https://www.youtube.com/embed/iis62qI9kcs","ansStr" :"タブ"},
       { "kagi": "インターネットでウェブサイトを見るためのソフトウェア。", "ans": "bu ra u za", "loc": [4, 5], "direction": "horizontal", "description": "ブラウザ 上方からつまんで左手のひらに取る+<読む>．", "url": "https://www.youtube.com/embed/Pby_bLkeNrE","ansStr" :"ブラウザ"},
       { "kagi": "アカウントを作るときに必要な手続き。", "ans": "to u ro ku", "loc": [0, 6], "direction": "horizontal", "description": "登録 <あ>の右手親指の指先を左手のひらにつけ，右手親指を左手指先へずらす．", "url": "https://www.youtube.com/embed/E6Iee0qG8mI","ansStr" :"登録"},
-      { "kagi": "サイトやアプリにアクセスするために、IDやパスワードを入力する。", "ans": "ro gu i n", "loc": [2, 6], "direction": "vertical", "description": "ログイン ", "url": "https://www.youtube.com/embed/WFAMiWgl9cQ","ansStr" :"ログイン"},
-      { "kagi": "デジタルではない方法やシステムのこと。", "ans": "a na ro gu", "loc": [6, 7], "direction": "horizontal", "description": "アナログ あきらさんです．", "url": "https://www.youtube.com/embed/KT8OeE3HsIo","ansStr" :"アナログ"},
-      { "kagi": "データを読み込むこと。ゲームやアプリでよく見られる。", "ans": "ro - do", "loc": [8, 7], "direction": "vertical", "description": "ロード あきらさんです．", "url": "https://www.youtube.com/embed/JyP3dSCeLCw","ansStr" :"ロード"},
-      { "kagi": "動画や音声を圧縮する形式の一つ", "ans": "e mu pe gu", "loc": [9, 4], "direction": "vertical", "description": "MPEG（えむぺぐ） あきらさんです．", "url": "https://www.youtube.com/embed/NYyEhkq7XGE","ansStr" :"MPEG（えむぺぐ）"},
-      { "kagi": "電子商取引を指す略語。ネットショッピングでおなじみ。", "ans": "i - si -", "loc": [2, 8], "direction": "horizontal", "description": "EC（いーし-） あきらさんです．", "url": "https://www.youtube.com/embed/XfQHq3T0f4U","ansStr" :"EC（いーしー）"},
-      { "kagi": "日本発のメッセージアプリ。スタンプが人気。", "ans": "ra i n", "loc": [0, 9], "direction": "horizontal", "description": "LINE(らいん) あきらさんです．", "url": "https://www.youtube.com/embed/blhzf1XlGBg","ansStr" :"LINE（らいん）"}
+      { "kagi": "サイトやアプリにアクセスするために、IDやパスワードを入力する。", "ans": "ro gu i n", "loc": [2, 6], "direction": "vertical", "description": "ログイン 指文字<ろ>と<ぐ>を表し，左手の下に入れた右手を入れる．", "url": "https://www.youtube.com/embed/WFAMiWgl9cQ","ansStr" :"ログイン"},
+      { "kagi": "デジタルではない方法やシステムのこと。", "ans": "a na ro gu", "loc": [6, 7], "direction": "horizontal", "description": "アナログ 人差し指の指先で左から右に波状に動かす．", "url": "https://www.youtube.com/embed/KT8OeE3HsIo","ansStr" :"アナログ"},
+      { "kagi": "データを読み込むこと。ゲームやアプリでよく見られる。", "ans": "ro - do", "loc": [8, 7], "direction": "vertical", "description": "ロード ", "url": "https://www.youtube.com/embed/JyP3dSCeLCw","ansStr" :"ロード"},
+      { "kagi": "動画や音声を圧縮する形式の一つ", "ans": "e mu pe gu", "loc": [9, 4], "direction": "vertical", "description": "MPEG（えむぺぐ） 指文字<ま>+<活動>", "url": "https://www.youtube.com/embed/NYyEhkq7XGE","ansStr" :"MPEG（えむぺぐ）"},
+      { "kagi": "電子商取引を指す略語。ネットショッピングでおなじみ。", "ans": "i - si -", "loc": [2, 8], "direction": "horizontal", "description": "EC（いーし-） 指文字<え>で英小文字<e>を描く+「商売」", "url": "https://www.youtube.com/embed/XfQHq3T0f4U","ansStr" :"EC（いーしー）"},
+      { "kagi": "日本発のメッセージアプリ。スタンプが人気。", "ans": "ra i n", "loc": [0, 9], "direction": "horizontal", "description": "LINE(らいん) ", "url": "https://www.youtube.com/embed/blhzf1XlGBg","ansStr" :"LINE（らいん）"}
       ]
     },
     {
