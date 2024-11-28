@@ -250,24 +250,24 @@
         [16,  0,  0, -1, -1, -1, -1, -1,  0, -1]
       ],
       "quiz": [
-      { "kagi": "世界的に有名なソフトウェア会社。Windowsでおなじみ。", "ans": "ma i ku ro so fu to", "loc": [0, 0], "direction": "vertical", "description": "マイクロソフト ", "url": "https://www.youtube.com/embed/sfOd8HBiP9c","ansStr" :"マイクロソフト"},
-      { "kagi": "コンピューターの入力デバイスで、クリックやスクロールに使う。", "ans": "ma u su", "loc": [0, 0], "direction": "horizontal", "description": "マウス 人差し指と中指を少し曲げた右手を水平にぐるぐる回す．", "url": "https://www.youtube.com/embed/R0UtO-SXck4","ansStr" :"マウス"},
-      { "kagi": "画面を上下や左右に動かす操作のこと。", "ans": "su ku ro - ru", "loc": [2, 0], "direction": "vertical", "description": "スクロール 開いた両手を上下に動かす．", "url": "https://www.youtube.com/embed/h2gvwi3XzBc","ansStr" :"スクロール"},
-      { "kagi": "マウスを押す動作。リンクを開くときにも使う。", "ans": "ku ri ltu ku", "loc": [2, 1], "direction": "horizontal", "description": "クリック 右手を軽く下向きに握って人差し指だけ動かす．", "url": "https://www.youtube.com/embed/MA5INarVlMs","ansStr" :"クリック"},
-      { "kagi": "Appleが販売するパソコンの愛称。またはハンバーガーチェーンの名前でもある。", "ans": "ma ltu ku", "loc": [4, 0], "direction": "vertical", "description": "Mac（まっく） ", "url": "https://www.youtube.com/embed/T5T7zq8NdFs","ansStr" :"Mac（まっく）"},
-      { "kagi": "メールやメッセージを相手に届ける操作。", "ans": "so u si n", "loc": [6, 2], "direction": "horizontal", "description": "送信 左手を立てて，右手人差し指を左手のひらから前方に動かす．", "url": "https://www.youtube.com/embed/lENJsNz2BUs","ansStr" :"送信"},
-      { "kagi": "パソコンで動くアプリケーションやプログラムの総称。", "ans": "so fu to u le a", "loc": [6, 2], "direction": "vertical", "description": "ソフトウェア <柔らかい>+<色々>", "url": "https://www.youtube.com/embed/J7JEBoXdpP4","ansStr" :"ソフトウェア"},
-      { "kagi": "機械全般を指す言葉。コンピューターもこれに含まれる。", "ans": "ma si n", "loc": [9, 0], "direction": "vertical", "description": "マシン ", "url": "https://www.youtube.com/embed/hdkxJB5TOp4","ansStr" :"マシン"},
-      { "kagi": "インターネット接続を複数の端末に分配する機器。", "ans": "ru - ta", "loc": [2, 4], "direction": "horizontal", "description": "ルータ 指文字<る>を，左手の指文字<あ>の親指に横から近づけ，前方に出す動作を反復する．", "url": "https://www.youtube.com/embed/UXnko_apPUw","ansStr" :"ルータ"},
-      { "kagi": "ウェブブラウザで複数のページを切り替えるための部分。", "ans": "ta bu", "loc": [4, 4], "direction": "vertical", "description": "タブ 指文字<く>の左手の親指を右手親指と人差し指で上に引っ張る．", "url": "https://www.youtube.com/embed/iis62qI9kcs","ansStr" :"タブ"},
-      { "kagi": "インターネットでウェブサイトを見るためのソフトウェア。", "ans": "bu ra u za", "loc": [4, 5], "direction": "horizontal", "description": "ブラウザ 上方からつまんで左手のひらに取る+<読む>．", "url": "https://www.youtube.com/embed/Pby_bLkeNrE","ansStr" :"ブラウザ"},
-      { "kagi": "アカウントを作るときに必要な手続き。", "ans": "to u ro ku", "loc": [0, 6], "direction": "horizontal", "description": "登録 <あ>の右手親指の指先を左手のひらにつけ，右手親指を左手指先へずらす．", "url": "https://www.youtube.com/embed/E6Iee0qG8mI","ansStr" :"登録"},
-      { "kagi": "サイトやアプリにアクセスするために、IDやパスワードを入力する。", "ans": "ro gu i n", "loc": [2, 6], "direction": "vertical", "description": "ログイン 指文字<ろ>と<ぐ>を表し，左手の下に入れた右手を入れる．", "url": "https://www.youtube.com/embed/WFAMiWgl9cQ","ansStr" :"ログイン"},
-      { "kagi": "デジタルではない方法やシステムのこと。", "ans": "a na ro gu", "loc": [6, 7], "direction": "horizontal", "description": "アナログ 人差し指の指先で左から右に波状に動かす．", "url": "https://www.youtube.com/embed/KT8OeE3HsIo","ansStr" :"アナログ"},
-      { "kagi": "データを読み込むこと。ゲームやアプリでよく見られる。", "ans": "ro - do", "loc": [8, 7], "direction": "vertical", "description": "ロード ", "url": "https://www.youtube.com/embed/JyP3dSCeLCw","ansStr" :"ロード"},
+      { "kagi": "世界的に有名なソフトウェア会社．Windowsでおなじみ", "ans": "ma i ku ro so fu to", "loc": [0, 0], "direction": "vertical", "description": "マイクロソフト ", "url": "https://www.youtube.com/embed/sfOd8HBiP9c","ansStr" :"マイクロソフト"},
+      { "kagi": "コンピューターの入力デバイスで，クリックやスクロールに使う", "ans": "ma u su", "loc": [0, 0], "direction": "horizontal", "description": "マウス 人差し指と中指を少し曲げた右手を水平にぐるぐる回す．", "url": "https://www.youtube.com/embed/R0UtO-SXck4","ansStr" :"マウス"},
+      { "kagi": "画面を上下や左右に動かす操作のこと", "ans": "su ku ro - ru", "loc": [2, 0], "direction": "vertical", "description": "スクロール 開いた両手を上下に動かす．", "url": "https://www.youtube.com/embed/h2gvwi3XzBc","ansStr" :"スクロール"},
+      { "kagi": "マウスを押す動作．リンクを開くときにも使う", "ans": "ku ri ltu ku", "loc": [2, 1], "direction": "horizontal", "description": "クリック 右手を軽く下向きに握って人差し指だけ動かす．", "url": "https://www.youtube.com/embed/MA5INarVlMs","ansStr" :"クリック"},
+      { "kagi": "Appleが販売するパソコンの愛称．またはハンバーガーチェーンの名前でもある", "ans": "ma ltu ku", "loc": [4, 0], "direction": "vertical", "description": "Mac（まっく） ", "url": "https://www.youtube.com/embed/T5T7zq8NdFs","ansStr" :"Mac（まっく）"},
+      { "kagi": "メールやメッセージを相手に届ける操作", "ans": "so u si n", "loc": [6, 2], "direction": "horizontal", "description": "送信 左手を立てて，右手人差し指を左手のひらから前方に動かす．", "url": "https://www.youtube.com/embed/lENJsNz2BUs","ansStr" :"送信"},
+      { "kagi": "パソコンで動くアプリケーションやプログラムの総称", "ans": "so fu to u le a", "loc": [6, 2], "direction": "vertical", "description": "ソフトウェア <柔らかい>+<色々>", "url": "https://www.youtube.com/embed/J7JEBoXdpP4","ansStr" :"ソフトウェア"},
+      { "kagi": "機械全般を指す言葉．コンピューターもこれに含まれる", "ans": "ma si n", "loc": [9, 0], "direction": "vertical", "description": "マシン ", "url": "https://www.youtube.com/embed/hdkxJB5TOp4","ansStr" :"マシン"},
+      { "kagi": "インターネット接続を複数の端末に分配する機器", "ans": "ru - ta", "loc": [2, 4], "direction": "horizontal", "description": "ルータ 指文字<る>を，左手の指文字<あ>の親指に横から近づけ，前方に出す動作を反復する．", "url": "https://www.youtube.com/embed/UXnko_apPUw","ansStr" :"ルータ"},
+      { "kagi": "ウェブブラウザで複数のページを切り替えるための部分", "ans": "ta bu", "loc": [4, 4], "direction": "vertical", "description": "タブ 指文字<く>の左手の親指を右手親指と人差し指で上に引っ張る．", "url": "https://www.youtube.com/embed/iis62qI9kcs","ansStr" :"タブ"},
+      { "kagi": "インターネットでウェブサイトを見るためのソフトウェア", "ans": "bu ra u za", "loc": [4, 5], "direction": "horizontal", "description": "ブラウザ 上方からつまんで左手のひらに取る+<読む>．", "url": "https://www.youtube.com/embed/Pby_bLkeNrE","ansStr" :"ブラウザ"},
+      { "kagi": "アカウントを作るときに必要な手続き", "ans": "to u ro ku", "loc": [0, 6], "direction": "horizontal", "description": "登録 <あ>の右手親指の指先を左手のひらにつけ，右手親指を左手指先へずらす．", "url": "https://www.youtube.com/embed/E6Iee0qG8mI","ansStr" :"登録"},
+      { "kagi": "サイトやアプリにアクセスするために，IDやパスワードを入力する", "ans": "ro gu i n", "loc": [2, 6], "direction": "vertical", "description": "ログイン 指文字<ろ>と<ぐ>を表し，左手の下に入れた右手を入れる．", "url": "https://www.youtube.com/embed/WFAMiWgl9cQ","ansStr" :"ログイン"},
+      { "kagi": "デジタルではない方法やシステムのこと", "ans": "a na ro gu", "loc": [6, 7], "direction": "horizontal", "description": "アナログ 人差し指の指先で左から右に波状に動かす．", "url": "https://www.youtube.com/embed/KT8OeE3HsIo","ansStr" :"アナログ"},
+      { "kagi": "データを読み込むこと．ゲームやアプリでよく見られる", "ans": "ro - do", "loc": [8, 7], "direction": "vertical", "description": "ロード ", "url": "https://www.youtube.com/embed/JyP3dSCeLCw","ansStr" :"ロード"},
       { "kagi": "動画や音声を圧縮する形式の一つ", "ans": "e mu pe gu", "loc": [9, 4], "direction": "vertical", "description": "MPEG（えむぺぐ） 指文字<ま>+<活動>", "url": "https://www.youtube.com/embed/NYyEhkq7XGE","ansStr" :"MPEG（えむぺぐ）"},
-      { "kagi": "電子商取引を指す略語。ネットショッピングでおなじみ。", "ans": "i - si -", "loc": [2, 8], "direction": "horizontal", "description": "EC（いーし-） 指文字<え>で英小文字<e>を描く+「商売」", "url": "https://www.youtube.com/embed/XfQHq3T0f4U","ansStr" :"EC（いーしー）"},
-      { "kagi": "日本発のメッセージアプリ。スタンプが人気。", "ans": "ra i n", "loc": [0, 9], "direction": "horizontal", "description": "LINE(らいん) ", "url": "https://www.youtube.com/embed/blhzf1XlGBg","ansStr" :"LINE（らいん）"}
+      { "kagi": "電子商取引を指す略語．ネットショッピングでおなじみ", "ans": "i - si -", "loc": [2, 8], "direction": "horizontal", "description": "EC（いーし-） 指文字<え>で英小文字<e>を描く+「商売」", "url": "https://www.youtube.com/embed/XfQHq3T0f4U","ansStr" :"EC（いーしー）"},
+      { "kagi": "日本発のメッセージアプリ．スタンプが人気", "ans": "ra i n", "loc": [0, 9], "direction": "horizontal", "description": "LINE(らいん) ", "url": "https://www.youtube.com/embed/blhzf1XlGBg","ansStr" :"LINE（らいん）"}
       ]
     },
     {
@@ -296,7 +296,7 @@
         { "kagi": "仕事や頑張った人に労う言葉", "ans": "o tu ka re", "loc": [5,1], "direction": "horizontal", "description": "おつかれ　苦労と同じ，右手拳の小指側で左腕を2回たたく", "url": "https://www.youtube.com/embed/uJtsBaoS-6Y", "ansStr":"おつかれ" },
         { "kagi": "自己紹介の最後に言います", "ans": "yo ro si ku", "loc": [5,3], "direction": "horizontal", "description": "よろしく　良い，鼻先に置いた右拳を前に出す", "url": "https://www.youtube.com/embed/xjlLD_WxXyo", "ansStr":"よろしく" },
         { "kagi": "電話○○を教えてください", "ans": "ba n go u", "loc": [3,2], "direction": "vertical", "description": "番号　算数や数字と同じ，3本指を立てた両手を左右から2回付け合せる", "url": "https://www.youtube.com/embed/Vca-LXoIYjc", "ansStr":"番号" },
-        { "kagi": "怪我や病気の際にはいきましょう", "ans": "bi lyo u i n", "loc": [4,5], "direction": "vertical", "description": "病院　<医療>+<場所>", "url": "https://www.youtube.com/embed/ELTJpY6Kmgc", "ansStr":"病院" },
+        { "kagi": "怪我や病気の際には行きましょう", "ans": "bi lyo u i n", "loc": [4,5], "direction": "vertical", "description": "病院　<医療>+<場所>", "url": "https://www.youtube.com/embed/ELTJpY6Kmgc", "ansStr":"病院" },
         { "kagi": "サザエさんやちびまる子ちゃんが放送される日", "ans": "ni ti yo u bi", "loc": [0,5], "direction": "horizontal", "description": "日曜日　<赤>+<休み>", "url": "https://www.youtube.com/embed/Tjw7EmbCDLM", "ansStr":"日曜日" }
       ]
     },
@@ -320,11 +320,11 @@
         [-2, -2, -2, -2, -2, -2, -2, -2, -2, -2]
       ],
       "quiz": [
-        { "kagi": "炎天下で食べる，スプーンで食べることが多いけど、コーンに乗っていることもあります", "ans": "a i su ku ri - mu", "loc": [1,4], "direction": "horizontal", "description": "アイスクリーム　軽く握った右手を口元で回すように上下する", "url": "https://www.youtube.com/embed/WUdYoOoYjFc", "ansStr":"アイスクリーム" },
+        { "kagi": "炎天下で食べる，スプーンで食べることが多いけど，コーンに乗っていることもあります", "ans": "a i su ku ri - mu", "loc": [1,4], "direction": "horizontal", "description": "アイスクリーム　軽く握った右手を口元で回すように上下する", "url": "https://www.youtube.com/embed/WUdYoOoYjFc", "ansStr":"アイスクリーム" },
         { "kagi": "秋に収穫期を迎える根菜類．そのまま焼くのがオーソドックスだが，様々な調理法が確立されている．石や～き○○で有名", "ans": "sa tu ma i mo", "loc": [2,1], "direction": "vertical", "description": "さつまいも　握った両手の人差し指側を合わせ，折るように素早く2回上にあげる", "url": "https://www.youtube.com/embed/ZA4y8DEFhwQ", "ansStr":"さつまいも" },
-        { "kagi": "ティータイムやおやつの時間にぴったりのお菓子,ステラおばさんが有名", "ans": "ku ltu ki -", "loc": [4,4], "direction": "vertical", "description": "クッキー　折り曲げた右手2指の指先を口に近づける", "url": "https://www.youtube.com/embed/SovsodSQaEE", "ansStr":"クッキー" },
+        { "kagi": "ティータイムやおやつの時間にぴったりのお菓子．ステラおばさんが有名", "ans": "ku ltu ki -", "loc": [4,4], "direction": "vertical", "description": "クッキー　折り曲げた右手2指の指先を口に近づける", "url": "https://www.youtube.com/embed/SovsodSQaEE", "ansStr":"クッキー" },
         { "kagi": "国民食，給食で人気，ココ壱番屋が有名", "ans": "ka re - ra i su", "loc": [6,2], "direction": "vertical", "description": "カレーライス　", "url": "https://www.youtube.com/embed/ram9ou-2JTs", "ansStr":"カレーライス" },
-        { "kagi": "魚の日本食といえば，お米と魚を使ったもの", "ans": "su si", "loc": [6,7], "direction": "horizontal", "description": "寿司　丸めた左手に右手2指をはさんで軽く握る", "url": "https://www.youtube.com/embed/Jjz8Lm64gls", "ansStr":"寿司" }
+        { "kagi": "シャリとネタが奏でるハーモニーが最高", "ans": "su si", "loc": [6,7], "direction": "horizontal", "description": "寿司　丸めた左手に右手2指をはさんで軽く握る", "url": "https://www.youtube.com/embed/Jjz8Lm64gls", "ansStr":"寿司" }
       ]
     },
     {
@@ -352,7 +352,7 @@
         { "kagi": "身体や精神の機能に制限がある状態", "ans": "si lyo u ga i", "loc": [3,1], "direction": "vertical", "description": "障害　親指側を付け合わせた両手拳で折る仕草をする", "url": "https://www.youtube.com/embed/Ddafb0roNjk", "ansStr":"障害" },
         { "kagi": "人々の幸福で安定した生活を公的に達成しようとすること", "ans": "fu ku si", "loc": [1,1], "direction": "horizontal", "description": "福祉　", "url": "https://www.youtube.com/embed/e_oLnVI8DSg", "ansStr":"福祉" },
         { "kagi": "高齢者や障がい者の世話や支援，手入れや管理", "ans": "ke a", "loc": [6,6], "direction": "horizontal", "description": "ケア ", "url": "https://www.youtube.com/embed/YfeCK2ZkM7Y", "ansStr":"ケア" },
-        { "kagi": "目が不自由な人が出かけるときに、安全に歩けるようにサポートをする犬のこと", "ans": "mo u do u ke n", "loc": [2,3], "direction": "horizontal", "description": "盲導犬　", "url": "https://www.youtube.com/embed/-hmn2Yw72UE", "ansStr":"盲導犬" }
+        { "kagi": "目が不自由な人が出かけるときに，安全に歩けるようにサポートをする犬のこと", "ans": "mo u do u ke n", "loc": [2,3], "direction": "horizontal", "description": "盲導犬　", "url": "https://www.youtube.com/embed/-hmn2Yw72UE", "ansStr":"盲導犬" }
         
       ]
     },
@@ -376,12 +376,12 @@
         [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
       ],
       "quiz": [
-        { "kagi": "悪い人を捕まえる，交通整理をしたり、事件や事故を解決する役割があります．こち亀の両津勘吉が有名", "ans": "ke i sa tu", "loc": [1,3], "direction": "horizontal", "description": "警察 小さく丸めた右手2指の輪を額の上部にあてる", "url": "https://www.youtube.com/embed/3gd8Manpbpc", "ansStr":"警察" },
+        { "kagi": "悪い人を捕まえる，交通整理をしたり，事件や事故を解決する役割があります．こち亀の両津勘吉が有名", "ans": "ke i sa tu", "loc": [1,3], "direction": "horizontal", "description": "警察 小さく丸めた右手2指の輪を額の上部にあてる", "url": "https://www.youtube.com/embed/3gd8Manpbpc", "ansStr":"警察" },
         { "kagi": "教えたり導いたりする人，お世話になりました．", "ans": "se n se i", "loc": [2,0], "direction": "vertical", "description": "先生 右手人差し指を前方斜め下へ2回振る", "url": "https://www.youtube.com/embed/ghrftiHjQow", "ansStr":"先生"},
-        { "kagi": "医師と連携して、患者の治療がスムーズに進むようにサポートします", "ans": "ka n go si", "loc": [1,1], "direction": "horizontal", "description": "看護師 ", "url": "https://www.youtube.com/embed/am1hshRdJZ8", "ansStr":"看護師" },
+        { "kagi": "医師と連携して，患者の治療がスムーズに進むようにサポートします", "ans": "ka n go si", "loc": [1,1], "direction": "horizontal", "description": "看護師 ", "url": "https://www.youtube.com/embed/am1hshRdJZ8", "ansStr":"看護師" },
         { "kagi": "話されている内容を迅速かつ正確に訳すことが求められます", "ans": "tu u ya ku si lya", "loc": [4,3], "direction": "vertical", "description": "通訳者 通訳（右手人差し指を立て，口元で左右に動かす）", "url": "https://www.youtube.com/embed/ytP33mVpJcw", "ansStr":"通訳者" },
         { "kagi": "建築物の設計や工事監理を行う国家資格の専門家", "ans": "ke n ti ku si", "loc": [1,6], "direction": "horizontal", "description": "建築士 建築（両手の指先を斜めに組み，ひねりながら上へ上げる）", "url": "https://www.youtube.com/embed/", "ansStr":"建築士" },
-        { "kagi": "法的権利を守るために、法律に基づいて問題を解決し、依頼者をサポートする", "ans": "be n go si", "loc": [2,5], "direction": "vertical", "description": "弁護士 ", "url": "https://www.youtube.com/embed/7EeBOn3ZYQo", "ansStr":"弁護士" },
+        { "kagi": "法的権利を守るために，法律に基づいて問題を解決し，依頼者をサポートする", "ans": "be n go si", "loc": [2,5], "direction": "vertical", "description": "弁護士 ", "url": "https://www.youtube.com/embed/7EeBOn3ZYQo", "ansStr":"弁護士" },
         { "kagi": "適切な薬を患者さんに提供します", "ans": "ya ku za i si", "loc": [4,5], "direction": "horizontal", "description": "薬剤師 薬，薬剤（右薬指を左手掌につけ，小さな円を描くように回す", "url": "https://www.youtube.com/embed/ppQMXTT71Es", "ansStr":"薬剤師" },
         { "kagi": "幼い子どもたちの世話や教育を行う専門職", "ans": "ho i ku si", "loc": [8,2], "direction": "vertical", "description": "保育士 <世話>＋＜士＞", "url": "https://www.youtube.com/embed/71HoLJ-F-rA", "ansStr":"保育士" }
       ]
