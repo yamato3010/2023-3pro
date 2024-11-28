@@ -9,7 +9,7 @@
       "image": "",
       "board": [
         [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1],
-        [-1, 1, 0, 0, 0, 0, 0, 0, 0, -1],
+        [-1, 1, 0, 0, 0, 0, 2, 0, 0, -1],
         [-1, 0, -1, 0, 0, 0, 0, 0, 0, -1],
         [-1, 0, 0, 0, 0, 0, 0, 0, 0, -1],
         [-1, 0, -1, 0, -1, 0, 0, 0, 0, -1],
@@ -20,7 +20,9 @@
         [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
       ],
       "quiz": [
-        { "kagi": "あきらって誰？", "ans": "a ki ru", "loc": [1, 1], "direction": "vertical", "description": "あきらさんです．", "url": "", "ansStr":"あきら" }
+        { "kagi": "あきらって誰？", "ans": "a ki ra", "loc": [1, 1], "direction": "vertical", "description": "あきらさんです．", "url": "", "ansStr":"あきら" },
+        { "kagi": "あきらって誰？", "ans": "a ki ru", "loc": [1, 1], "direction": "horizontal", "description": "あきるさんです．", "url": "", "ansStr":"あきる" },
+        { "kagi": "あきらって誰？", "ans": "a ki ru", "loc": [6, 1], "direction": "vertical", "description": "あきらさんです．", "url": "", "ansStr":"あきら" }
       ]
     },
     {
@@ -136,23 +138,23 @@
         [-2, -2, -2, -2, -2, -2, -2, -2, -2, -2]
       ],
       "quiz": [
-        { "kagi": "ボールを前に投げてはいけない球技", "ans": "ra gu bi -", "loc": [1, 1], "direction": "vertical", "description": "ラグビー 最近盛り上がってますよね．", "url": "", "ansStr":"ラグビー" }
+        { "kagi": "ボールを前に投げてはいけない球技", "ans": "ra gu bi -", "loc": [1, 1], "direction": "vertical", "description": "ラグビー 最近盛り上がってますよね．", "url": "https://www.youtube.com/embed/EsX9nb3xxDM", "ansStr":"ラグビー" }
         ,
-        { "kagi": "ネットのついたスティックでボールを操る", "ans": "ra ku ro su", "loc": [1, 1], "direction": "horizontal", "description": "ラクロス 最近盛り上がってますよね．", "url": "", "ansStr":"ラクロス" }
+        { "kagi": "ネットのついたスティックでボールを操る", "ans": "ra ku ro su", "loc": [1, 1], "direction": "horizontal", "description": "ラクロス 最近盛り上がってますよね．", "url": "https://www.youtube.com/embed/", "ansStr":"ラクロス" }
         ,
-        { "kagi": "最近はゲームも含まれます", "ans": "su po - tu", "loc": [4, 1], "direction": "vertical", "description": "スポーツ 最近盛り上がってますよね．", "url": "", "ansStr":"スポーツ" }
+        { "kagi": "最近はゲームも含まれます", "ans": "su po - tu", "loc": [4, 1], "direction": "vertical", "description": "スポーツ 最近盛り上がってますよね．", "url": "https://www.youtube.com/embed/QdB306sn6A4", "ansStr":"スポーツ" }
         ,
-        { "kagi": "雪の上を滑る競技", "ans": "su ki -", "loc": [6, 2], "direction": "vertical", "description": "スキー 最近盛り上がってますよね．", "url": "", "ansStr":"スキー" }
+        { "kagi": "雪の上を滑る競技", "ans": "su ki -", "loc": [6, 2], "direction": "vertical", "description": "スキー 最近盛り上がってますよね．", "url": "https://www.youtube.com/embed/dLsKMpFN86I", "ansStr":"スキー" }
         ,
-        { "kagi": "映画『ロッキー』って熱いよね", "ans": "bo ku si n gu", "loc": [8, 2], "direction": "vertical", "description": "ボクシング 最近盛り上がってますよね．", "url": "", "ansStr":"ボクシング" }
+        { "kagi": "映画『ロッキー』って熱いよね", "ans": "bo ku si n gu", "loc": [8, 2], "direction": "vertical", "description": "ボクシング 最近盛り上がってますよね．", "url": "https://www.youtube.com/embed/bzI0eMq0Lzg", "ansStr":"ボクシング" }
         ,
-        { "kagi": "湘南にいい波が来るってよ", "ans": "sa - fu li n", "loc": [3, 4], "direction": "vertical", "description": "サーフィン 最近盛り上がってますよね．", "url": "", "ansStr":"サーフィン" }
+        { "kagi": "湘南にいい波が来るってよ", "ans": "sa - fu li n", "loc": [3, 4], "direction": "vertical", "description": "サーフィン 最近盛り上がってますよね．", "url": "https://www.youtube.com/embed/T2pm1Vcjam8", "ansStr":"サーフィン" }
         ,
-        { "kagi": "イギリス発祥で蹴球とも言う", "ans": "sa tu ka -", "loc": [3, 4], "direction": "horizontal", "description": "サッカー 最近盛り上がってますよね．", "url": "", "ansStr":"サッカー" }
+        { "kagi": "イギリス発祥で蹴球とも言う", "ans": "sa tu ka -", "loc": [3, 4], "direction": "horizontal", "description": "サッカー 最近盛り上がってますよね．", "url": "https://www.youtube.com/embed/0Esgp98WtBQ", "ansStr":"サッカー" }
         ,
-        { "kagi": "水辺の人命救助", "ans": "ra i fu se - bi n gu", "loc": [1, 6], "direction": "horizontal", "description": "ライフセービング 最近盛り上がってますよね．", "url": "", "ansStr":"ライフセービング" }
+        { "kagi": "水辺の人命救助", "ans": "ra i fu se - bi n gu", "loc": [1, 6], "direction": "horizontal", "description": "ライフセービング 最近盛り上がってますよね．", "url": "https://www.youtube.com/embed/GkFLKXxr7Zw", "ansStr":"ライフセービング" }
         ,
-        { "kagi": "剣を駆使して行われるエレガントなスポーツ", "ans": "fu le n si n gu", "loc": [1, 8], "direction": "horizontal", "description": "フェンシング 最近盛り上がってますよね．", "url": "", "ansStr":"フェンシング" }
+        { "kagi": "剣を駆使して行われるエレガントなスポーツ", "ans": "fu le n si n gu", "loc": [1, 8], "direction": "horizontal", "description": "フェンシング 最近盛り上がってますよね．", "url": "https://www.youtube.com/embed/u-Mt8R1RPgQ", "ansStr":"フェンシング" }
       ]
     },
     {
@@ -175,57 +177,57 @@
             [-1, -1, -1, -1, -1, 23,  0,  0, -1, 0]
           ],
           "quiz": [
-             { "kagi": "苗字ランキング：120位，3代目スネ夫の声優", "ans": "se ki", "loc": [7, 0], "direction": "vertical", "description": "関　", "url": "","ansStr":"関" },
+             { "kagi": "苗字ランキング：120位，3代目スネ夫の声優", "ans": "se ki", "loc": [7, 0], "direction": "vertical", "description": "関　", "url": "https://www.youtube.com/embed/QlvCOUrWjHo","ansStr":"関" },
             
-            { "kagi": "苗字ランキング：585位，日本の演歌歌手・女優で○○瑛子が有名", "ans": "se ga wa", "loc": [7, 0], "direction": "horizontal", "description": "瀬川　", "url": "", "ansStr":"瀬川" },
+            { "kagi": "苗字ランキング：585位，日本の演歌歌手・女優で○○瑛子が有名", "ans": "se ga wa", "loc": [7, 0], "direction": "horizontal", "description": "瀬川　", "url": "https://www.youtube.com/embed/738T5NfK4IA", "ansStr":"瀬川" },
 
-            { "kagi": "苗字ランキング：109位，実は「わたなべ」とも呼ぶ", "ans": "wa ta be", "loc": [9, 0], "direction": "vertical", "description": "渡部　", "url": "", "ansStr":"渡辺" },
+            { "kagi": "苗字ランキング：109位，実は「わたなべ」とも呼ぶ", "ans": "wa ta be", "loc": [9, 0], "direction": "vertical", "description": "渡部　", "url": "https://www.youtube.com/embed/1M8V2bzsSQE", "ansStr":"渡辺" },
 
-             { "kagi": "苗字ランキング：387位，アムロ・レイの声優で有名", "ans": "fu ru ya", "loc": [0, 1], "direction": "horizontal", "description": "古谷　p.167<古>+p.114<谷>", "url": "", "ansStr":"古谷" },
+             { "kagi": "苗字ランキング：387位，アムロ・レイの声優で有名", "ans": "fu ru ya", "loc": [0, 1], "direction": "horizontal", "description": "古谷　p.167<古>+p.114<谷>", "url": "https://www.youtube.com/embed/2T-4iMZ1xbY", "ansStr":"古谷" },
             
-            { "kagi": "苗字ランキング：12位，俳優には孝之，野球選手には哲人", "ans": "ya ma da", "loc": [2, 1], "direction": "vertical", "description": "山田　p.194<山>+実用手話p.331<田>", "url": "", "ansStr":"山田" },
+            { "kagi": "苗字ランキング：12位，俳優には孝之，野球選手には哲人", "ans": "ya ma da", "loc": [2, 1], "direction": "vertical", "description": "山田　p.194<山>+実用手話p.331<田>", "url": "https://www.youtube.com/embed/hcGwWq81N2w", "ansStr":"山田" },
 
-            { "kagi": "苗字ランキング：1位，甘そう，○○健や○○二朗が有名", "ans": "sa to u", "loc": [5, 1], "direction": "vertical", "description": "佐藤　p.7右手掌を口に向けて回す（<砂糖>，<甘い>の手話で表す）", "url": "","ansStr":"佐藤"},
+            { "kagi": "苗字ランキング：1位，甘そう，○○健や○○二朗が有名", "ans": "sa to u", "loc": [5, 1], "direction": "vertical", "description": "佐藤　p.7右手掌を口に向けて回す（<砂糖>，<甘い>の手話で表す）", "url": "https://www.youtube.com/embed/EcVELimoD6Y","ansStr":"佐藤"},
 
-            { "kagi": "苗字ランキング：13位，宮本武蔵のライバル，○○○小次郎", "ans": "sa sa ki", "loc": [5, 1], "direction": "horizontal", "description": "佐々木　", "url": "", "ansStr":"佐々木" },
+            { "kagi": "苗字ランキング：13位，宮本武蔵のライバル，○○○小次郎", "ans": "sa sa ki", "loc": [5, 1], "direction": "horizontal", "description": "佐々木　", "url": "https://www.youtube.com/embed/id5MLa2IOSY", "ansStr":"佐々木" },
 
-            { "kagi": "苗字ランキング：13位，ダウンタウン浜田の相方", "ans": "ma tu mo to", "loc": [2, 2], "direction": "horizontal", "description": "松本　", "url": "", "ansStr":"松本" },
+            { "kagi": "苗字ランキング：13位，ダウンタウン浜田の相方", "ans": "ma tu mo to", "loc": [2, 2], "direction": "horizontal", "description": "松本　", "url": "https://www.youtube.com/embed/28h7eTtbZ_I", "ansStr":"松本" },
 
-            { "kagi": "苗字ランキング：11位，元総理大臣や，霊長類最強の人の苗字", "ans": "yo si da", "loc": [0, 3], "direction": "horizontal", "description": "吉田　p.197<吉，良い>+実用手話p.331<田>", "url": "", "ansStr":"吉田" },
+            { "kagi": "苗字ランキング：11位，元総理大臣や，霊長類最強の人の苗字", "ans": "yo si da", "loc": [0, 3], "direction": "horizontal", "description": "吉田　p.197<吉，良い>+実用手話p.331<田>", "url": "https://www.youtube.com/embed/BAMPWbPa-C8", "ansStr":"吉田" },
 
-            { "kagi": "苗字ランキング：20位，静岡県の市，エスパルス", "ans": "si mi zu", "loc": [1, 3], "direction": "vertical", "description": "清水　", "url": "", "ansStr":"清水" },
+            { "kagi": "苗字ランキング：20位，静岡県の市，エスパルス", "ans": "si mi zu", "loc": [1, 3], "direction": "vertical", "description": "清水　", "url": "https://www.youtube.com/embed/3SM5ZGyOK-8", "ansStr":"清水" },
 
-            { "kagi": "苗字ランキング：1135位，ハイキュー！！より，白鳥沢のエース，闇金でも有名", "ans": "u si zi ma", "loc": [5, 3], "direction": "horizontal", "description": "牛島　p.19<牛>+p.95<島>", "url": "", "ansStr":"牛島" },
+            { "kagi": "苗字ランキング：1135位，ハイキュー！！より，白鳥沢のエース，闇金でも有名", "ans": "u si zi ma", "loc": [5, 3], "direction": "horizontal", "description": "牛島　p.19<牛>+p.95<島>", "url": "https://www.youtube.com/embed/MSBzi2HwcEY", "ansStr":"牛島" },
 
-            { "kagi": "苗字ランキング：77位，ポケモン赤・緑などで作曲を担当", "ans": "ma su da", "loc": [8, 3], "direction": "vertical", "description": "増田　p.161<増える>+実用手話p.331<田>", "url": "", "ansStr":"増田" },
+            { "kagi": "苗字ランキング：77位，ポケモン赤・緑などで作曲を担当", "ans": "ma su da", "loc": [8, 3], "direction": "vertical", "description": "増田　p.161<増える>+実用手話p.331<田>", "url": "https://www.youtube.com/embed/uiwcjuMSoJc", "ansStr":"増田" },
 
-            { "kagi": "苗字ランキング：693位，オリエンタルラジオ藤森慎吾の出身地長野県○○市", "ans": "su wa", "loc": [8, 4], "direction": "horizontal", "description": "諏訪　", "url": "", "ansStr":"諏訪" },
+            { "kagi": "苗字ランキング：693位，オリエンタルラジオ藤森慎吾の出身地長野県○○市", "ans": "su wa", "loc": [8, 4], "direction": "horizontal", "description": "諏訪　", "url": "https://www.youtube.com/embed/VKjFgG8VU3w", "ansStr":"諏訪" },
 
-            { "kagi": "苗字ランキング：2位，同じ名前の魚がいるよ，イチローの苗字", "ans": "su zu ki", "loc": [0, 5], "direction": "horizontal", "description": "鈴木　実用手話p.306<鈴>+p.55<木>", "url": "", "ansStr":"鈴木" },
+            { "kagi": "苗字ランキング：2位，同じ名前の魚がいるよ，イチローの苗字", "ans": "su zu ki", "loc": [0, 5], "direction": "horizontal", "description": "鈴木　実用手話p.306<鈴>+p.55<木>", "url": "https://www.youtube.com/embed/r5cnFRK5ZE4", "ansStr":"鈴木" },
 
-            { "kagi": "苗字ランキング：757位，タレント、YouTuber、元クイズプレイヤーの○○信哉や福岡ソフトバンクホークスの○○リチャードが有名", "ans": "su na ga wa", "loc": [0, 5], "direction": "vertical", "description": "砂川　p.131<砂>+p.52<川>", "url": "", "ansStr":"砂川" },
+            { "kagi": "苗字ランキング：757位，タレント、YouTuber、元クイズプレイヤーの○○信哉や福岡ソフトバンクホークスの○○リチャードが有名", "ans": "su na ga wa", "loc": [0, 5], "direction": "vertical", "description": "砂川　p.131<砂>+p.52<川>", "url": "https://www.youtube.com/embed/ntaMRMSI-V0", "ansStr":"砂川" },
 
-            { "kagi": "苗字ランキング：17位，SMAPのメンバー，ちょまてよ", "ans": "ki mu ra", "loc": [2, 5], "direction": "vertical", "description": "木村　p.55<木>+p.14<村>", "url": "", "ansStr":"木村" },
+            { "kagi": "苗字ランキング：17位，SMAPのメンバー，ちょまてよ", "ans": "ki mu ra", "loc": [2, 5], "direction": "vertical", "description": "木村　p.55<木>+p.14<村>", "url": "https://www.youtube.com/embed/lUkf8HK92Ig", "ansStr":"木村" },
 
-            { "kagi": "苗字ランキング：516位，第100，101代内閣総理大臣", "ans": "ki si da", "loc": [6, 5], "direction": "horizontal", "description": "岸田　p.21<岸>+実用手話p.331<田>", "url": "" ,"ansStr":"岸田"},
+            { "kagi": "苗字ランキング：516位，第100，101代内閣総理大臣", "ans": "ki si da", "loc": [6, 5], "direction": "horizontal", "description": "岸田　p.21<岸>+実用手話p.331<田>", "url": "https://www.youtube.com/embed/DcDp6lcje4g" ,"ansStr":"岸田"},
 
-            { "kagi": "苗字ランキング：556位，城の崎にて，暗夜行路，網走まで，琵琶湖がある県と同じ読み方", "ans": "si ga", "loc": [7, 5], "direction": "vertical", "description": "志賀　", "url":"","ansStr":"志賀" },
+            { "kagi": "苗字ランキング：556位，城の崎にて，暗夜行路，網走まで，琵琶湖がある県と同じ読み方", "ans": "si ga", "loc": [7, 5], "direction": "vertical", "description": "志賀　", "url":"https://www.youtube.com/embed/aYqUA47HBUE","ansStr":"志賀" },
 
-            { "kagi": "苗字ランキング：80位，とろサーモン久保田の相方", "ans": "mu ra ta", "loc": [2, 6], "direction": "horizontal", "description": "村田　p.14<村>+実用手話p.331<田>", "url": "","ansStr":"村田" },
+            { "kagi": "苗字ランキング：80位，とろサーモン久保田の相方", "ans": "mu ra ta", "loc": [2, 6], "direction": "horizontal", "description": "村田　p.14<村>+実用手話p.331<田>", "url": "https://www.youtube.com/embed/JfFr6T26gZY","ansStr":"村田" },
 
-            { "kagi": "苗字ランキング：4位，アンガール○○,○○圭", "ans": "ta na ka", "loc": [4, 6], "direction": "vertical", "description": "田中　実用手話p.331<田>+p.117<中>", "url": "","ansStr":"田中" },
+            { "kagi": "苗字ランキング：4位，アンガール○○,○○圭", "ans": "ta na ka", "loc": [4, 6], "direction": "vertical", "description": "田中　実用手話p.331<田>+p.117<中>", "url": "https://www.youtube.com/embed/0VbmDHuAP9A","ansStr":"田中" },
 
-            { "kagi": "苗字ランキング：6位，同じ読みでも，様々な漢字が当てはまる，○○謙，○○裕之", "ans": "wa ta na be", "loc": [9, 6], "direction": "vertical", "description": "渡辺　", "url": "","ansStr":"渡辺" },
+            { "kagi": "苗字ランキング：6位，同じ読みでも，様々な漢字が当てはまる，○○謙，○○裕之", "ans": "wa ta na be", "loc": [9, 6], "direction": "vertical", "description": "渡辺　", "url": "https://www.youtube.com/embed/eaxLLWK9QLM","ansStr":"渡辺" },
 
-            { "kagi": "苗字ランキング：49位，東京の23区にも存在する，天智天皇は○○○おおえのおうじと呼ばれていた", "ans": "na ka no", "loc": [4, 7], "direction": "horizontal", "description": "中野　", "url": "","ansStr":"中野" },
+            { "kagi": "苗字ランキング：49位，東京の23区にも存在する，天智天皇は○○○おおえのおうじと呼ばれていた", "ans": "na ka no", "loc": [4, 7], "direction": "horizontal", "description": "中野　", "url": "https://www.youtube.com/embed/yElkvl20FAc","ansStr":"中野" },
 
-            { "kagi": "苗字ランキング：417位，孫悟空，星野鉄郎の声優", "ans": "no za wa", "loc": [6, 7], "direction": "vertical", "description": "野沢　", "url": "","ansStr":"野沢" },
+            { "kagi": "苗字ランキング：417位，孫悟空，星野鉄郎の声優", "ans": "no za wa", "loc": [6, 7], "direction": "vertical", "description": "野沢　", "url": "https://www.youtube.com/embed/m6Z2StE_UDM","ansStr":"野沢" },
 
-            { "kagi": "苗字ランキング：667位，「ひまわりの約束」で有名", "ans": "ha ta", "loc": [8, 7], "direction": "horizontal", "description": "秦　", "url": "","ansStr":"秦"},
+            { "kagi": "苗字ランキング：667位，「ひまわりの約束」で有名", "ans": "ha ta", "loc": [8, 7], "direction": "horizontal", "description": "秦　", "url": "https://www.youtube.com/embed/cCMfRZazVsE","ansStr":"秦"},
 
-            { "kagi": "苗字ランキング：58位，アキ子，まんじゅう", "ans": "wa da", "loc": [0, 8], "direction": "horizontal", "description": "和田　", "url": "","ansStr":"和田" },
+            { "kagi": "苗字ランキング：58位，アキ子，まんじゅう", "ans": "wa da", "loc": [0, 8], "direction": "horizontal", "description": "和田　", "url": "https://www.youtube.com/embed/fbyMENe24UY","ansStr":"和田" },
 
-            { "kagi": "苗字ランキング：86位，こうの，とも読む", "ans": "ka wa no", "loc": [5, 9], "direction": "horizontal", "description": "河野　", "url": "","ansStr" :"河野"}
+            { "kagi": "苗字ランキング：86位，こうの，とも読む", "ans": "ka wa no", "loc": [5, 9], "direction": "horizontal", "description": "河野　", "url": "https://www.youtube.com/embed/ieRY9Ws71dY","ansStr" :"河野"}
           ]
     },
     {
@@ -248,24 +250,24 @@
         [16,  0,  0, -1, -1, -1, -1, -1,  0, -1]
       ],
       "quiz": [
-      { "kagi": "世界的に有名なソフトウェア会社。Windowsでおなじみ。", "ans": "ma i ku ro so fu to", "loc": [0, 0], "direction": "vertical", "description": "マイクロソフト あきらさんです．", "url": "","ansStr" :"マイクロソフト"},
-      { "kagi": "コンピューターの入力デバイスで、クリックやスクロールに使う。", "ans": "ma u su", "loc": [0, 0], "direction": "horizontal", "description": "マウス あきらさんです．", "url": "","ansStr" :"マウス"},
-      { "kagi": "画面を上下や左右に動かす操作のこと。", "ans": "su ku ro - ru", "loc": [2, 0], "direction": "vertical", "description": "スクロール あきらさんです．", "url": "","ansStr" :"スクロール"},
-      { "kagi": "マウスを押す動作。リンクを開くときにも使う。", "ans": "ku ri ltu ku", "loc": [2, 1], "direction": "horizontal", "description": "クリック あきらさんです．", "url": "","ansStr" :"クリック"},
-      { "kagi": "Appleが販売するパソコンの愛称。またはハンバーガーチェーンの名前でもある。", "ans": "ma ltu ku", "loc": [4, 0], "direction": "vertical", "description": "Mac（まっく） あきらさんです．", "url": "","ansStr" :"Mac（まっく）"},
-      { "kagi": "メールやメッセージを相手に届ける操作。", "ans": "so u si n", "loc": [6, 2], "direction": "horizontal", "description": "送信 あきらさんです．", "url": "","ansStr" :"送信"},
-      { "kagi": "パソコンで動くアプリケーションやプログラムの総称。", "ans": "so fu to u le a", "loc": [6, 2], "direction": "vertical", "description": "ソフトウェア あきらさんです．", "url": "","ansStr" :"ソフトウェア"},
-      { "kagi": "機械全般を指す言葉。コンピューターもこれに含まれる。", "ans": "ma si n", "loc": [9, 0], "direction": "vertical", "description": "マシン あきらさんです．", "url": "","ansStr" :"マシン"},
-      { "kagi": "インターネット接続を複数の端末に分配する機器。", "ans": "ru - ta", "loc": [2, 4], "direction": "horizontal", "description": "ルータ あきらさんです．", "url": "","ansStr" :"ルータ"},
-      { "kagi": "ウェブブラウザで複数のページを切り替えるための部分。", "ans": "ta bu", "loc": [4, 4], "direction": "vertical", "description": "タブ あきらさんです．", "url": "","ansStr" :"タブ"},
-      { "kagi": "インターネットでウェブサイトを見るためのソフトウェア。", "ans": "bu ra u za", "loc": [4, 5], "direction": "horizontal", "description": "ブラウザ あきらさんです．", "url": "","ansStr" :"ブラウザ"},
-      { "kagi": "アカウントを作るときに必要な手続き。", "ans": "to u ro ku", "loc": [0, 6], "direction": "horizontal", "description": "登録 あきらさんです．", "url": "","ansStr" :"登録"},
-      { "kagi": "サイトやアプリにアクセスするために、IDやパスワードを入力する。", "ans": "ro gu i n", "loc": [2, 6], "direction": "vertical", "description": "ログイン あきらさんです．", "url": "","ansStr" :"ログイン"},
-      { "kagi": "デジタルではない方法やシステムのこと。", "ans": "a na ro gu", "loc": [6, 7], "direction": "horizontal", "description": "アナログ あきらさんです．", "url": "","ansStr" :"アナログ"},
-      { "kagi": "データを読み込むこと。ゲームやアプリでよく見られる。", "ans": "ro - do", "loc": [8, 7], "direction": "vertical", "description": "ロード あきらさんです．", "url": "","ansStr" :"ロード"},
-      { "kagi": "動画や音声を圧縮する形式の一つ", "ans": "e mu pe gu", "loc": [9, 4], "direction": "vertical", "description": "MPEG（えむぺぐ） あきらさんです．", "url": "","ansStr" :"MPEG（えむぺぐ）"},
-      { "kagi": "電子商取引を指す略語。ネットショッピングでおなじみ。", "ans": "i - si -", "loc": [2, 8], "direction": "horizontal", "description": "EC（いーし-） あきらさんです．", "url": "","ansStr" :"EC（いーしー）"},
-      { "kagi": "日本発のメッセージアプリ。スタンプが人気。", "ans": "ra i n", "loc": [0, 9], "direction": "horizontal", "description": "LINE(らいん) あきらさんです．", "url": "","ansStr" :"LINE（らいん）"}
+      { "kagi": "世界的に有名なソフトウェア会社。Windowsでおなじみ。", "ans": "ma i ku ro so fu to", "loc": [0, 0], "direction": "vertical", "description": "マイクロソフト あきらさんです．", "url": "https://www.youtube.com/embed/sfOd8HBiP9c","ansStr" :"マイクロソフト"},
+      { "kagi": "コンピューターの入力デバイスで、クリックやスクロールに使う。", "ans": "ma u su", "loc": [0, 0], "direction": "horizontal", "description": "マウス あきらさんです．", "url": "https://www.youtube.com/embed/R0UtO-SXck4","ansStr" :"マウス"},
+      { "kagi": "画面を上下や左右に動かす操作のこと。", "ans": "su ku ro - ru", "loc": [2, 0], "direction": "vertical", "description": "スクロール あきらさんです．", "url": "https://www.youtube.com/embed/h2gvwi3XzBc","ansStr" :"スクロール"},
+      { "kagi": "マウスを押す動作。リンクを開くときにも使う。", "ans": "ku ri ltu ku", "loc": [2, 1], "direction": "horizontal", "description": "クリック あきらさんです．", "url": "https://www.youtube.com/embed/MA5INarVlMs","ansStr" :"クリック"},
+      { "kagi": "Appleが販売するパソコンの愛称。またはハンバーガーチェーンの名前でもある。", "ans": "ma ltu ku", "loc": [4, 0], "direction": "vertical", "description": "Mac（まっく） あきらさんです．", "url": "https://www.youtube.com/embed/T5T7zq8NdFs","ansStr" :"Mac（まっく）"},
+      { "kagi": "メールやメッセージを相手に届ける操作。", "ans": "so u si n", "loc": [6, 2], "direction": "horizontal", "description": "送信 あきらさんです．", "url": "https://www.youtube.com/embed/lENJsNz2BUs","ansStr" :"送信"},
+      { "kagi": "パソコンで動くアプリケーションやプログラムの総称。", "ans": "so fu to u le a", "loc": [6, 2], "direction": "vertical", "description": "ソフトウェア あきらさんです．", "url": "https://www.youtube.com/embed/J7JEBoXdpP4","ansStr" :"ソフトウェア"},
+      { "kagi": "機械全般を指す言葉。コンピューターもこれに含まれる。", "ans": "ma si n", "loc": [9, 0], "direction": "vertical", "description": "マシン あきらさんです．", "url": "https://www.youtube.com/embed/hdkxJB5TOp4","ansStr" :"マシン"},
+      { "kagi": "インターネット接続を複数の端末に分配する機器。", "ans": "ru - ta", "loc": [2, 4], "direction": "horizontal", "description": "ルータ あきらさんです．", "url": "https://www.youtube.com/embed/UXnko_apPUw","ansStr" :"ルータ"},
+      { "kagi": "ウェブブラウザで複数のページを切り替えるための部分。", "ans": "ta bu", "loc": [4, 4], "direction": "vertical", "description": "タブ あきらさんです．", "url": "https://www.youtube.com/embed/iis62qI9kcs","ansStr" :"タブ"},
+      { "kagi": "インターネットでウェブサイトを見るためのソフトウェア。", "ans": "bu ra u za", "loc": [4, 5], "direction": "horizontal", "description": "ブラウザ あきらさんです．", "url": "https://www.youtube.com/embed/Pby_bLkeNrE","ansStr" :"ブラウザ"},
+      { "kagi": "アカウントを作るときに必要な手続き。", "ans": "to u ro ku", "loc": [0, 6], "direction": "horizontal", "description": "登録 あきらさんです．", "url": "https://www.youtube.com/embed/E6Iee0qG8mI","ansStr" :"登録"},
+      { "kagi": "サイトやアプリにアクセスするために、IDやパスワードを入力する。", "ans": "ro gu i n", "loc": [2, 6], "direction": "vertical", "description": "ログイン あきらさんです．", "url": "https://www.youtube.com/embed/WFAMiWgl9cQ","ansStr" :"ログイン"},
+      { "kagi": "デジタルではない方法やシステムのこと。", "ans": "a na ro gu", "loc": [6, 7], "direction": "horizontal", "description": "アナログ あきらさんです．", "url": "https://www.youtube.com/embed/KT8OeE3HsIo","ansStr" :"アナログ"},
+      { "kagi": "データを読み込むこと。ゲームやアプリでよく見られる。", "ans": "ro - do", "loc": [8, 7], "direction": "vertical", "description": "ロード あきらさんです．", "url": "https://www.youtube.com/embed/JyP3dSCeLCw","ansStr" :"ロード"},
+      { "kagi": "動画や音声を圧縮する形式の一つ", "ans": "e mu pe gu", "loc": [9, 4], "direction": "vertical", "description": "MPEG（えむぺぐ） あきらさんです．", "url": "https://www.youtube.com/embed/NYyEhkq7XGE","ansStr" :"MPEG（えむぺぐ）"},
+      { "kagi": "電子商取引を指す略語。ネットショッピングでおなじみ。", "ans": "i - si -", "loc": [2, 8], "direction": "horizontal", "description": "EC（いーし-） あきらさんです．", "url": "https://www.youtube.com/embed/XfQHq3T0f4U","ansStr" :"EC（いーしー）"},
+      { "kagi": "日本発のメッセージアプリ。スタンプが人気。", "ans": "ra i n", "loc": [0, 9], "direction": "horizontal", "description": "LINE(らいん) あきらさんです．", "url": "https://www.youtube.com/embed/blhzf1XlGBg","ansStr" :"LINE（らいん）"}
       ]
     },
     {
@@ -288,14 +290,14 @@
         [-1, -1, -1, -1,  0, -1, -1, -1, -1, -1]
       ],
       "quiz": [
-        { "kagi": "お昼の挨拶", "ans": "ko n ni ti ha", "loc": [1,2], "direction": "vertical", "description": "こんにちは　<昼>+<挨拶>", "url": "", "ansStr":"こんにちは" },
-        { "kagi": "夜の挨拶", "ans": "ko n ba n ha", "loc": [1,2], "direction": "horizontal", "description": "こんばんは　<夜>+<挨拶>", "url": "", "ansStr":"こんばんは" },
-        { "kagi": "朝の挨拶", "ans": "o ha yo u", "loc": [5,1], "direction": "vertical", "description": "おはよう　<朝>+<挨拶>", "url": "", "ansStr":"おはよう" },
-        { "kagi": "仕事や頑張った人に労う言葉", "ans": "o tu ka re", "loc": [5,1], "direction": "horizontal", "description": "おつかれ　苦労と同じ，右手拳の小指側で左腕を2回たたく", "url": "", "ansStr":"おつかれ" },
-        { "kagi": "自己紹介の最後に言います", "ans": "yo ro si ku", "loc": [5,3], "direction": "horizontal", "description": "よろしく　良い，鼻先に置いた右拳を前に出す", "url": "", "ansStr":"よろしく" },
-        { "kagi": "電話○○を教えてください", "ans": "ba n go u", "loc": [3,2], "direction": "vertical", "description": "番号　算数や数字と同じ，3本指を立てた両手を左右から2回付け合せる", "url": "", "ansStr":"番号" },
-        { "kagi": "怪我や病気の際にはいきましょう", "ans": "bi lyo u i n", "loc": [4,5], "direction": "vertical", "description": "病院　<医療>+<場所>", "url": "", "ansStr":"病院" },
-        { "kagi": "サザエさんやちびまる子ちゃんが放送される日", "ans": "ni ti yo u bi", "loc": [0,5], "direction": "horizontal", "description": "日曜日　<赤>+<休み>", "url": "", "ansStr":"日曜日" }
+        { "kagi": "お昼の挨拶", "ans": "ko n ni ti ha", "loc": [1,2], "direction": "vertical", "description": "こんにちは　<昼>+<挨拶>", "url": "https://www.youtube.com/embed/_VBA_hL6PkU", "ansStr":"こんにちは" },
+        { "kagi": "夜の挨拶", "ans": "ko n ba n ha", "loc": [1,2], "direction": "horizontal", "description": "こんばんは　<夜>+<挨拶>", "url": "https://www.youtube.com/embed/Jrm-5y6feds", "ansStr":"こんばんは" },
+        { "kagi": "朝の挨拶", "ans": "o ha yo u", "loc": [5,1], "direction": "vertical", "description": "おはよう　<朝>+<挨拶>", "url": "https://www.youtube.com/embed/F1zwkyYfe8M", "ansStr":"おはよう" },
+        { "kagi": "仕事や頑張った人に労う言葉", "ans": "o tu ka re", "loc": [5,1], "direction": "horizontal", "description": "おつかれ　苦労と同じ，右手拳の小指側で左腕を2回たたく", "url": "https://www.youtube.com/embed/uJtsBaoS-6Y", "ansStr":"おつかれ" },
+        { "kagi": "自己紹介の最後に言います", "ans": "yo ro si ku", "loc": [5,3], "direction": "horizontal", "description": "よろしく　良い，鼻先に置いた右拳を前に出す", "url": "https://www.youtube.com/embed/xjlLD_WxXyo", "ansStr":"よろしく" },
+        { "kagi": "電話○○を教えてください", "ans": "ba n go u", "loc": [3,2], "direction": "vertical", "description": "番号　算数や数字と同じ，3本指を立てた両手を左右から2回付け合せる", "url": "https://www.youtube.com/embed/Vca-LXoIYjc", "ansStr":"番号" },
+        { "kagi": "怪我や病気の際にはいきましょう", "ans": "bi lyo u i n", "loc": [4,5], "direction": "vertical", "description": "病院　<医療>+<場所>", "url": "https://www.youtube.com/embed/ELTJpY6Kmgc", "ansStr":"病院" },
+        { "kagi": "サザエさんやちびまる子ちゃんが放送される日", "ans": "ni ti yo u bi", "loc": [0,5], "direction": "horizontal", "description": "日曜日　<赤>+<休み>", "url": "https://www.youtube.com/embed/Tjw7EmbCDLM", "ansStr":"日曜日" }
       ]
     },
     {
@@ -318,11 +320,11 @@
         [-2, -2, -2, -2, -2, -2, -2, -2, -2, -2]
       ],
       "quiz": [
-        { "kagi": "炎天下で食べる，スプーンで食べることが多いけど、コーンに乗っていることもあります", "ans": "a i su ku ri - mu", "loc": [1,4], "direction": "horizontal", "description": "アイスクリーム　軽く握った右手を口元で回すように上下する", "url": "", "ansStr":"アイスクリーム" },
-        { "kagi": "秋に収穫期を迎える根菜類．そのまま焼くのがオーソドックスだが，様々な調理法が確立されている．石や～き○○で有名", "ans": "sa tu ma i mo", "loc": [2,1], "direction": "vertical", "description": "さつまいも　握った両手の人差し指側を合わせ，折るように素早く2回上にあげる", "url": "", "ansStr":"さつまいも" },
-        { "kagi": "ティータイムやおやつの時間にぴったりのお菓子,ステラおばさんが有名", "ans": "ku ltu ki -", "loc": [4,4], "direction": "vertical", "description": "クッキー　折り曲げた右手2指の指先を口に近づける", "url": "", "ansStr":"クッキー" },
-        { "kagi": "国民食，給食で人気，ココ壱番屋が有名", "ans": "ka re - ra i su", "loc": [6,2], "direction": "vertical", "description": "カレーライス　", "url": "", "ansStr":"カレーライス" },
-        { "kagi": "魚の日本食といえば，お米と魚を使ったもの", "ans": "su si", "loc": [6,7], "direction": "horizontal", "description": "寿司　丸めた左手に右手2指をはさんで軽く握る", "url": "", "ansStr":"寿司" }
+        { "kagi": "炎天下で食べる，スプーンで食べることが多いけど、コーンに乗っていることもあります", "ans": "a i su ku ri - mu", "loc": [1,4], "direction": "horizontal", "description": "アイスクリーム　軽く握った右手を口元で回すように上下する", "url": "https://www.youtube.com/embed/WUdYoOoYjFc", "ansStr":"アイスクリーム" },
+        { "kagi": "秋に収穫期を迎える根菜類．そのまま焼くのがオーソドックスだが，様々な調理法が確立されている．石や～き○○で有名", "ans": "sa tu ma i mo", "loc": [2,1], "direction": "vertical", "description": "さつまいも　握った両手の人差し指側を合わせ，折るように素早く2回上にあげる", "url": "https://www.youtube.com/embed/ZA4y8DEFhwQ", "ansStr":"さつまいも" },
+        { "kagi": "ティータイムやおやつの時間にぴったりのお菓子,ステラおばさんが有名", "ans": "ku ltu ki -", "loc": [4,4], "direction": "vertical", "description": "クッキー　折り曲げた右手2指の指先を口に近づける", "url": "https://www.youtube.com/embed/SovsodSQaEE", "ansStr":"クッキー" },
+        { "kagi": "国民食，給食で人気，ココ壱番屋が有名", "ans": "ka re - ra i su", "loc": [6,2], "direction": "vertical", "description": "カレーライス　", "url": "https://www.youtube.com/embed/ram9ou-2JTs", "ansStr":"カレーライス" },
+        { "kagi": "魚の日本食といえば，お米と魚を使ったもの", "ans": "su si", "loc": [6,7], "direction": "horizontal", "description": "寿司　丸めた左手に右手2指をはさんで軽く握る", "url": "https://www.youtube.com/embed/Jjz8Lm64gls", "ansStr":"寿司" }
       ]
     },
     {
@@ -345,12 +347,12 @@
         [-2, -2, -2, -2, -1, -1, -2, -2, -2, -2]
       ],
       "quiz": [
-        { "kagi": "困っている人や年齢を重ねた方の日常生活をお手伝いすること", "ans": "ka i go", "loc": [2,5], "direction": "horizontal", "description": "介護　", "url": "", "ansStr":"介護" },
-        { "kagi": "無償で支援活動を行うこと", "ans": "bo ra n te li a", "loc": [7,1], "direction": "vertical", "description": "ボランティア  両手二指を下に向け，同時に指を交互に出して前に進める", "url": "", "ansStr":"ボランティア" },
-        { "kagi": "身体や精神の機能に制限がある状態", "ans": "si lyo u ga i", "loc": [3,1], "direction": "vertical", "description": "障害　親指側を付け合わせた両手拳で折る仕草をする", "url": "", "ansStr":"障害" },
-        { "kagi": "人々の幸福で安定した生活を公的に達成しようとすること", "ans": "fu ku si", "loc": [1,1], "direction": "horizontal", "description": "福祉　", "url": "", "ansStr":"福祉" },
-        { "kagi": "高齢者や障がい者の世話や支援，手入れや管理", "ans": "ke a", "loc": [6,6], "direction": "horizontal", "description": "ケア ", "url": "", "ansStr":"ケア" },
-        { "kagi": "目が不自由な人が出かけるときに、安全に歩けるようにサポートをする犬のこと", "ans": "mo u do u ke n", "loc": [2,3], "direction": "horizontal", "description": "盲導犬　", "url": "", "ansStr":"盲導犬" }
+        { "kagi": "困っている人や年齢を重ねた方の日常生活をお手伝いすること", "ans": "ka i go", "loc": [2,5], "direction": "horizontal", "description": "介護　", "url": "https://www.youtube.com/embed/2pnwDjAlzbQ", "ansStr":"介護" },
+        { "kagi": "無償で支援活動を行うこと", "ans": "bo ra n te li a", "loc": [7,1], "direction": "vertical", "description": "ボランティア  両手二指を下に向け，同時に指を交互に出して前に進める", "url": "https://www.youtube.com/embed/o-75g0YVlrw", "ansStr":"ボランティア" },
+        { "kagi": "身体や精神の機能に制限がある状態", "ans": "si lyo u ga i", "loc": [3,1], "direction": "vertical", "description": "障害　親指側を付け合わせた両手拳で折る仕草をする", "url": "https://www.youtube.com/embed/Ddafb0roNjk", "ansStr":"障害" },
+        { "kagi": "人々の幸福で安定した生活を公的に達成しようとすること", "ans": "fu ku si", "loc": [1,1], "direction": "horizontal", "description": "福祉　", "url": "https://www.youtube.com/embed/e_oLnVI8DSg", "ansStr":"福祉" },
+        { "kagi": "高齢者や障がい者の世話や支援，手入れや管理", "ans": "ke a", "loc": [6,6], "direction": "horizontal", "description": "ケア ", "url": "https://www.youtube.com/embed/YfeCK2ZkM7Y", "ansStr":"ケア" },
+        { "kagi": "目が不自由な人が出かけるときに、安全に歩けるようにサポートをする犬のこと", "ans": "mo u do u ke n", "loc": [2,3], "direction": "horizontal", "description": "盲導犬　", "url": "https://www.youtube.com/embed/-hmn2Yw72UE", "ansStr":"盲導犬" }
         
       ]
     },
@@ -374,14 +376,14 @@
         [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1]
       ],
       "quiz": [
-        { "kagi": "悪い人を捕まえる，交通整理をしたり、事件や事故を解決する役割があります．こち亀の両津勘吉が有名", "ans": "ke i sa tu", "loc": [1,3], "direction": "horizontal", "description": "警察 小さく丸めた右手2指の輪を額の上部にあてる", "url": "", "ansStr":"警察" },
-        { "kagi": "教えたり導いたりする人，お世話になりました．", "ans": "se n se i", "loc": [2,0], "direction": "vertical", "description": "先生 右手人差し指を前方斜め下へ2回振る", "url": "", "ansStr":"先生"},
-        { "kagi": "医師と連携して、患者の治療がスムーズに進むようにサポートします", "ans": "ka n go si", "loc": [1,1], "direction": "horizontal", "description": "看護師 ", "url": "", "ansStr":"看護師" },
-        { "kagi": "話されている内容を迅速かつ正確に訳すことが求められます", "ans": "tu u ya ku si lya", "loc": [4,3], "direction": "vertical", "description": "通訳者 通訳（右手人差し指を立て，口元で左右に動かす）", "url": "", "ansStr":"通訳者" },
-        { "kagi": "建築物の設計や工事監理を行う国家資格の専門家", "ans": "ke n ti ku si", "loc": [1,6], "direction": "horizontal", "description": "建築士 建築（両手の指先を斜めに組み，ひねりながら上へ上げる）", "url": "", "ansStr":"建築士" },
-        { "kagi": "法的権利を守るために、法律に基づいて問題を解決し、依頼者をサポートする", "ans": "be n go si", "loc": [2,5], "direction": "vertical", "description": "弁護士 ", "url": "", "ansStr":"弁護士" },
-        { "kagi": "適切な薬を患者さんに提供します", "ans": "ya ku za i si", "loc": [4,5], "direction": "horizontal", "description": "薬剤師 薬，薬剤（右薬指を左手掌につけ，小さな円を描くように回す", "url": "", "ansStr":"薬剤師" },
-        { "kagi": "幼い子どもたちの世話や教育を行う専門職", "ans": "ho i ku si", "loc": [8,2], "direction": "vertical", "description": "保育士 <世話>＋＜士＞", "url": "", "ansStr":"保育士" }
+        { "kagi": "悪い人を捕まえる，交通整理をしたり、事件や事故を解決する役割があります．こち亀の両津勘吉が有名", "ans": "ke i sa tu", "loc": [1,3], "direction": "horizontal", "description": "警察 小さく丸めた右手2指の輪を額の上部にあてる", "url": "https://www.youtube.com/embed/3gd8Manpbpc", "ansStr":"警察" },
+        { "kagi": "教えたり導いたりする人，お世話になりました．", "ans": "se n se i", "loc": [2,0], "direction": "vertical", "description": "先生 右手人差し指を前方斜め下へ2回振る", "url": "https://www.youtube.com/embed/ghrftiHjQow", "ansStr":"先生"},
+        { "kagi": "医師と連携して、患者の治療がスムーズに進むようにサポートします", "ans": "ka n go si", "loc": [1,1], "direction": "horizontal", "description": "看護師 ", "url": "https://www.youtube.com/embed/am1hshRdJZ8", "ansStr":"看護師" },
+        { "kagi": "話されている内容を迅速かつ正確に訳すことが求められます", "ans": "tu u ya ku si lya", "loc": [4,3], "direction": "vertical", "description": "通訳者 通訳（右手人差し指を立て，口元で左右に動かす）", "url": "https://www.youtube.com/embed/ytP33mVpJcw", "ansStr":"通訳者" },
+        { "kagi": "建築物の設計や工事監理を行う国家資格の専門家", "ans": "ke n ti ku si", "loc": [1,6], "direction": "horizontal", "description": "建築士 建築（両手の指先を斜めに組み，ひねりながら上へ上げる）", "url": "https://www.youtube.com/embed/", "ansStr":"建築士" },
+        { "kagi": "法的権利を守るために、法律に基づいて問題を解決し、依頼者をサポートする", "ans": "be n go si", "loc": [2,5], "direction": "vertical", "description": "弁護士 ", "url": "https://www.youtube.com/embed/7EeBOn3ZYQo", "ansStr":"弁護士" },
+        { "kagi": "適切な薬を患者さんに提供します", "ans": "ya ku za i si", "loc": [4,5], "direction": "horizontal", "description": "薬剤師 薬，薬剤（右薬指を左手掌につけ，小さな円を描くように回す", "url": "https://www.youtube.com/embed/ppQMXTT71Es", "ansStr":"薬剤師" },
+        { "kagi": "幼い子どもたちの世話や教育を行う専門職", "ans": "ho i ku si", "loc": [8,2], "direction": "vertical", "description": "保育士 <世話>＋＜士＞", "url": "https://www.youtube.com/embed/71HoLJ-F-rA", "ansStr":"保育士" }
       ]
     }
   ]
